@@ -161,3 +161,4 @@ deploy:
   repo: git@github.com:DavidingPlus/DavidingPlus.github.io.git
   branch: master
   message: "update Site"
+- type: BingPush

@@ -182,4 +182,4 @@ deploy:
   # 向搜索引擎推送
 - type: cjh_bing_url_submitter
   env:
-    BING_TOKEN: ${{ secrets.BING_TOKEN }}
+    BING_TOKEN: '${BING_TOKEN}'

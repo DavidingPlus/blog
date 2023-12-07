@@ -10,10 +10,10 @@ title: friends
 
 ~~~json
     {
-        "avatar": "https://davidingplus.gitee.io/assets/android-chrome-512x512.png",
+        "avatar": "https://lzx0626.me/assets/android-chrome-512x512.png",
         "name": "DavidingPlus",
         "introduction": "首先你需要努力，其次你才能获得快乐.",
-        "url": "https://davidingplus.gitee.io"
+        "url": "https://lzx0626.me"
     }
 ~~~
 

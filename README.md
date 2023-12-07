@@ -12,5 +12,3 @@
 - 关于推送给搜索引擎，使用了一个非常好用的插件`Hexo SEO Auto Push`，这个东西是部署之后在每天的特定时间推送给搜索引擎，而不是部署了就推送了，当然可以作者设定可以手动点击star进行推送，官方文档：[https://github.com/Lete114/hexo-seo-autopush.git](https://github.com/Lete114/hexo-seo-autopush.git)，讲的非常清楚，非常好用
 - 记得删除`node_modules`之后每次`cnpm install`之后在`source/_custom_node_modules`当中找到我们修改过的模块覆盖下载下来的，以保证功能正常
 
-
-

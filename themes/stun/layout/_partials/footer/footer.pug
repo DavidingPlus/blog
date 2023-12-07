@@ -1,0 +1,67 @@
+-
+  var footer = theme.footer;
+  var nowYear = new Date().getFullYear();
+  var startYear = footer.copyright.since || nowYear;
+  var endYear = footer.copyright.end || nowYear;
+  var footerCopyright = footer.copyright.enable
+  var footerBeian = footer.beian.enable
+
+if footerCopyright || footerBeian
+  div
+    if footerCopyright
+      span= `Copyright © ${startYear}` + ((startYear !== endYear) ? `~${endYear}` : '')
+      if footer.icon.enable
+        span(class="footer__icon")
+          i(class=footer.icon.name)
+      else
+        span.footer__devider
+      span!= footer.copyright.text || config.author
+    if footerCopyright && footerBeian
+      span.footer__devider= '|'
+    if footerBeian
+      span!= footer.beian.icp
+
+-
+  var footerPowered = footer.powered.enable
+  var footerTheme = footer.theme.enable
+
+if footerPowered || footerTheme
+  div
+    if footerPowered
+      span
+        != _p('footer.powered', link_to(HEXO_URL, 'Hexo', { external: true }))
+      if footer.powered.version
+        span= ' v' + hexo_env('version')
+    if footerPowered && footerTheme
+      span.footer__devider= '|'
+    if footerTheme
+      span= __('footer.theme') + ' - '
+        != link_to(STUN_URL, 'Stun', { external: true })
+      if footer.theme.version
+        span= ' v' + stun_env('version')
+
+if theme.busuanzi.enable
+  include ../analytics/busuanzi.pug
+
+//- 统计网站运行时间
+div
+  span#timeDate 载入天数...
+  span#times 载入时分秒...
+  script.
+    var now = new Date();
+    function createtime() {
+    var grt= new Date("09/18/2023 00:00:00");
+    now.setTime(now.getTime()+250);
+    days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+    hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+    if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+    mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+    seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+    snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+    document.getElementById("timeDate").innerHTML = "小破站已安全运行 "+dnum+" 天 ";
+    document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒啦!~~~";
+    }
+    setInterval("createtime()",250);
+
+if footer.custom.enable
+  div!= footer.custom.text

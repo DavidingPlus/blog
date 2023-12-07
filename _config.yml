@@ -175,11 +175,11 @@ live2d:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repo: git@github.com:DavidingPlus/DavidingPlus.github.io.git
   branch: master
   message: "update Site"
   # 向搜索引擎推送
-  # type: cjh_bing_url_submitter
+- type: cjh_bing_url_submitter
   env:
     BING_TOKEN: ${{ secrets.BING_TOKEN }}

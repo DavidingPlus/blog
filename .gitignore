@@ -1,0 +1,11 @@
+# 原本自动生成的屏蔽
+.DS_Store
+Thumbs.db
+*.log
+.deploy*/
+_multiconfig.yml
+
+# 我自己根据我的目录添加的
+node_modules/
+public/
+db.json

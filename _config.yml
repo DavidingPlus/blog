@@ -183,4 +183,4 @@ deploy:
 - type: cjh_bing_url_submitter
 - name: lzx0626 #这个随便写
   env:
-    BING_TOKEN: ${BING_TOKEN}
+    BING_TOKEN: ${{ secrets.BING_TOKEN }}

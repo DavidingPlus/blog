@@ -13,5 +13,7 @@ comments: false
 
 哦对了，我不玩原神。喜欢篮球，喜欢老詹。欢迎和我交朋友，一起学习和进步！~~南通别来~~。
 
+**<u>Nothing is true, everything is permitted.  --Ezio</u>**
+
 <img src="/images/about/lbj_laugh.webp" style="zoom: 80%;" />
 

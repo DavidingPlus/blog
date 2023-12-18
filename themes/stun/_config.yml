@@ -247,7 +247,7 @@ footer:
   # Any custom text (e.g. Hosted by <a href="https://pages.github.com/" rel="noopener" target="_blank">Github Pages</a>)
   custom:
     enable: true
-    text: 首先你需要努力，其次你才能获得快乐.
+    text: Nothing is true, everything is permitted.
 
 # Creative Commons 4.0 International License
 creative_commons:

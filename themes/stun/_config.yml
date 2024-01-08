@@ -64,6 +64,7 @@ menu:
 submenu:
   other:
     friends: /friends/ || fas fa-users
+    internship: /internship/ || fas fa-briefcase
 
   # Add item of secondary menu in here.
   # xxx1:

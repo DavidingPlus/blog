@@ -165,5 +165,5 @@ deploy:
 - type: git
   repo: git@github.com:DavidingPlus/DavidingPlus.github.io.git
   branch: master
-  message: "update Site"
+  # message: "update Site" # 注释掉以使用默认的 commit 信息，带有具体提交时间
   ignore_hidden: false # 部署的时候最好不要跳过隐藏的文件，例如.开头的文件，可能这些文件是配置文件或者依赖文件，跳过可能会导致网站无法正常访问

@@ -17,5 +17,3 @@ comments: false
 
 <img src="/images/about/lbj_laugh.webp" style="zoom: 80%;" />
 
-![亮色](https://raw.githubusercontent.com/DavidingPlus/DavidingPlus/output/github-contribution-grid-snake.svg)
-

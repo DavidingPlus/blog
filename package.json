@@ -1,11 +1,11 @@
 {
-  "name": "davidingplus",
-  "version": "11.45.14",
+  "name": "hexo-site",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "clean": "sudo npx hexo clean",
     "s": "sudo npx hexo clean && npx hexo g && npx hexo s",
-    "d": "sudo npx hexo clean && npx hexo g && gulp && npx hexo d && git add . && git commit -m 'update Code' && git push -u origin Code"
+    "d": "sudo npx hexo clean && npx hexo g && npx gulp && npx hexo d && git add . && git commit -m 'update Code' && git push -u origin Code"
   },
   "hexo": {
     "version": "7.1.1"
@@ -14,6 +14,7 @@
     "acorn": "^8.11.2",
     "gulp": "^5.0.0",
     "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^3.0.0",
     "gulp-html-minifier-terser": "^7.1.0",
     "gulp-uglify-es": "^3.0.0",
     "hexo": "^7.0.0",

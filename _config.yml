@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://lzx0626.cn/
+url: https://lzx0626.me/
 # permalink: :year/:month/:day/:title/
 # 设置永久链接
 permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink

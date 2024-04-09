@@ -3,7 +3,7 @@
   "version": "11.45.14",
   "private": true,
   "scripts": {
-    "c": "sudo npx hexo clean",
+    "clean": "sudo npx hexo clean",
     "s": "sudo npx hexo clean && npx hexo g && npx hexo s",
     "d": "sudo npx hexo clean && npx hexo g && gulp && npx hexo d && git add . && git commit -m 'update Code' && git push -u origin Code"
   },

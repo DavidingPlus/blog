@@ -15,5 +15,5 @@ comments: false
 
 **<u>Nothing is true, everything is permitted.  --Ezio</u>**
 
-<img src="/images/about/lbj_laugh.webp" style="zoom: 80%;" />
+<img src="/images/about/lbj.webp" style="zoom: 80%;" />
 

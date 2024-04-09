@@ -82,12 +82,12 @@ menu_settings:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /assets/favicon-16x16.png
-  medium: /assets/favicon-32x32.png
+  small: /assets/favicon-16x16.webp
+  medium: /assets/favicon-32x32.webp
   # ! --------------------------------------------------
   # ! If you don't know the following, please ignore it.
   # ! --------------------------------------------------
-  apple_touch_icon: assets/apple-touch-icon.png
+  apple_touch_icon: assets/apple-touch-icon.webp
   # safari_pinned_tab: /images/icons/stun-logo.svg
   # msapplication: /images/icons/favicon-144x144.png
 
@@ -149,7 +149,7 @@ header:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /images/home/image1.jpg
+    url: /images/home/top.webp
   # Banner area.
   banner:
     # Effective for all pages.
@@ -183,7 +183,7 @@ body:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /images/home/image2.jpg
+    url: /images/home/background.webp
     # Whether to fixed the background image.
     fixed: true
     # Whether to repeat the image as much as possible to cover the entire area.
@@ -206,7 +206,7 @@ footer:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /images/home/image3.jpg
+    url: /images/home/bottom.webp
   # Mask effect of the background image.
   mask:
     enable: true
@@ -314,7 +314,7 @@ author:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /assets/android-chrome-512x512.png
+    url: /assets/android-chrome-512x512.webp
     # If true, the avatar would be displayed in a circle.
     rounded: true
     # Opacity of avatar (value: 0 ~ 1)
@@ -335,8 +335,8 @@ social:
   csdn: https://blog.csdn.net/m0_61588837?spm=1000.2115.3001.5343 || origin:CSDN
   # gitee: https://gitee.com/DavidingPlus || origin:Gitee
   github: https://github.com/DavidingPlus || fab fa-github
-  qq: /images/social/qq.jpg || fab fa-qq
-  wechat: /images/social/wechat.jpg || fab fa-weixin
+  qq: /images/social/qq.webp || fab fa-qq
+  wechat: /images/social/wechat.webp || fab fa-weixin
   E-Mail: mailto:2065666169@qq.com ||  fas fa-envelope
   # google: https://plus.google.com/ || fab fa-google
   # twitter: https://twitter.com/ || fab fa-twitter
@@ -406,8 +406,8 @@ reward:
   # 收款码在打开pjax之后没有办法一次通过pjax加载出来，只能刷新页面才能请求到，所以目前用不了，我还是先把收款码关了吧。。。
   enable: false
   # Your QR code for collecting money.
-  alipay: /images/pay/alipay.png
-  wechat: /images/pay/wechat_pay.png
+  alipay: /images/pay/alipay.webp
+  wechat: /images/pay/wechat.webp
 
 # ---------------------------------------------------------------
 # Post config

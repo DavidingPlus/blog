@@ -54,6 +54,7 @@ menu:
   archives: /archives/ || fas fa-folder-open
   categories: /categories/ || fas fa-layer-group
   algo: /algo || fas fa-laptop
+  game: javascript:; || fas fa-gamepad
   other: javascript:; || fas fa-bars
   about: /about/ || fas fa-user
   # tags: /tags/ || fas fa-tags
@@ -65,6 +66,10 @@ submenu:
   other:
     friends: /friends/ || fas fa-users
     internship: /internship/ || fas fa-briefcase
+  game:
+    # TODO 给这些游戏添加图标
+    wzq: /game/wzq/index.html
+    2048_game: /game/2048/index.html
 
   # Add item of secondary menu in here.
   # xxx1:

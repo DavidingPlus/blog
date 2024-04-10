@@ -20,6 +20,9 @@ menu:
   other: 其他
   algo: 算法
   internship: 实习
+  game: 娱乐
+  wzq: 五子棋
+  2048_game: '2048'
 
 # 归档页、分类页、标签页
 page:

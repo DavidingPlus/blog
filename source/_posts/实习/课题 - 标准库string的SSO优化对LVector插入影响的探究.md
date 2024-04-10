@@ -1,7 +1,6 @@
 ---
 title: 标准库string的SSO优化对LVector插入影响的探究
 categories:
-  - 工作
   - 实习
 top: 2
 abbrlink: 53b96cfe

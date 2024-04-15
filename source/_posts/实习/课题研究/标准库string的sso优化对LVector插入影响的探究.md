@@ -1,16 +1,17 @@
 ---
-title: 标准库string的SSO优化对LVector插入影响的探究
+title: 标准库string的sso优化对LVector插入影响的探究
 categories:
   - 实习
-top: 2
-abbrlink: 53b96cfe
+  - 课题研究
+top: 3
+abbrlink: b67fd3f4
 date: 2024-02-28 17:55:00
 updated: 2024-02-29 10:15:00
 ---
 
 <meta name="referrer" content="no-referrer"/>
 
-钟老师让自己的做的一个课题研究，主题是`标准库string的SSO优化对LVector插入的影响`。
+钟老师让自己的做的一个课题研究，主题是`标准库string的sso优化对LVector插入的影响`。
 
 <!-- more -->
 

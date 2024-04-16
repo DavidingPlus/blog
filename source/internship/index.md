@@ -7,7 +7,7 @@ comments: false
 
 本页面存放了`实习`的相关链接.
 
-- [课题：标准库string的sso优化对LVector插入影响的探究](/posts/53b96cfe.html)
+- [课题：标准库string的sso优化对LVector插入影响的探究](/posts/b67fd3f4.html)
 
 - [课题：LDir和LFileInfo的语义和设计](/posts/567667e8.html)
 
@@ -19,7 +19,7 @@ comments: false
 
 - [2.19 - 3.1](/posts/5318c342.html)
 
-- [3,14 - 3.15](/posts/de17aabf.html)
+- [3.4 - 3.15](/posts/de17aabf.html)
 
 - [3.18 - 3.29](/posts/338fd367.html)
 

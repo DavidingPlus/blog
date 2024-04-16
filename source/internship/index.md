@@ -7,7 +7,9 @@ comments: false
 
 本页面存放了`实习`的相关链接.
 
-- [课题：标准库string的SSO优化对LVector插入影响的探究](/posts/53b96cfe.html)
+- [课题：标准库string的sso优化对LVector插入影响的探究](/posts/53b96cfe.html)
+
+- [课题：LDir和LFileInfo的语义和设计](/posts/567667e8.html)
 
 - `1.8 - 1.12`：入职第一周没有具体迭代任务，后面正式开始迭代，从`1.15`开始写记录，会一直坚持写。
 

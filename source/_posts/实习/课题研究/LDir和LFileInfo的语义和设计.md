@@ -6,7 +6,7 @@ categories:
 top: 2
 abbrlink: '567667e8'
 date: 2024-04-15 21:55:00
-updated: 2024-04-19 20:30:00
+updated: 2024-04-23 23:20:00
 ---
 
 <meta name="referrer" content="no-referrer"/>
@@ -140,7 +140,6 @@ updated: 2024-04-19 20:30:00
      - `owner()`：返回当前文件或目录的所有者
      - `setPermission(LPermission permisson)`：设置当前文件或目录的权限
      - `permission()`：返回当前文件或目录的权限
-     
 
 5. 后续维护任务归纳。
 

@@ -505,7 +505,7 @@ gitalk:
   # Github username.
   owner: DavidingPlus
   # Github repository.
-  repo: Gitalk
+  repo: gitalk
   # Github Application Client ID.
   client_id: 275382d4e047906af49b
   # Github Application Client Secret.

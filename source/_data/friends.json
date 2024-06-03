@@ -1,15 +1,15 @@
 [
     {
-        "avatar": "/images/friends/zhangmo.svg",
-        "name": "丈墨",
-        "introduction": "我本将心向明月，奈何明月照沟渠。",
-        "url": "https://zhang-mo-blog.vercel.app/zh"
-    },
-    {
         "avatar": "/images/friends/ignotusjee.webp",
         "name": "Ignotus",
         "introduction": "有人生来就被幸福拥抱，有人生来就被长夜围绕。",
         "url": "https://ignotusjee.github.io"
+    },
+    {
+        "avatar": "/images/friends/gilbert-newton-lewis.svg",
+        "name": "GilbertNewtonLewis",
+        "introduction": "Be one with Yuri!",
+        "url": "https://GilbertNewtonLewis.github.io"
     },
     {
         "avatar": "/images/friends/laobai.webp",
@@ -22,6 +22,12 @@
         "name": "Van",
         "introduction": "Dream of being a good full-stack engineer",
         "url": "https://www.wchvan.online"
+    },
+    {
+        "avatar": "/images/friends/zhangmo.svg",
+        "name": "丈墨",
+        "introduction": "我本将心向明月，奈何明月照沟渠。",
+        "url": "https://zhang-mo-blog.vercel.app/zh"
     },
     {
         "avatar": "/images/friends/gemini.webp",

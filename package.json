@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "sudo npx hexo clean",
     "s": "sudo npx hexo clean && npx hexo g && npx hexo s",
-    "d": "sudo npx hexo clean && npx hexo g && npx gulp && npx hexo d && git add . && git commit -m 'update Code' && git push -u origin Code"
+    "d": "sudo npx hexo clean && npx hexo g && npx gulp && npx hexo d && git add . && git commit -m 'update Code' && git push -u origin code"
   },
   "hexo": {
     "version": "7.1.1"

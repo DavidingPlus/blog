@@ -2,7 +2,6 @@
 title: 使用git
 categories:
   - 一些技巧
-  - 博客搭建
 top: 2
 abbrlink: 13ca1b18
 date: 2024-04-24 20:15:00

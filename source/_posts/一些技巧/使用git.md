@@ -5,7 +5,7 @@ categories:
 top: 2
 abbrlink: 13ca1b18
 date: 2024-04-24 20:15:00
-updated: 2024-05-11 20:10:00
+updated: 2024-06-05 23:20:00
 ---
 
 <meta name="referrer" content="no-referrer"/>
@@ -23,8 +23,8 @@ updated: 2024-05-11 20:10:00
   - `git pull`
 
 - 后续提交按照顺序：
-    - `git add .` 
-    - 将所有的文件放到暂存区，这个时候可以用 `git status` 查看文件状态，已经放到暂存区
+  - `git add .` 
+  - 将所有的文件放到暂存区，这个时候可以用 `git status` 查看文件状态，已经放到暂存区
 - `git commit -m "xxx"`
 
   - 使用`git commit`提交文件，此时提交的修改仍然存储在本地，并没有上传到远程服务器。`-m` 后为此次提交的说明，解释做了哪些修改，方便他人理解
@@ -40,10 +40,10 @@ updated: 2024-05-11 20:10:00
   - `git checkout master` 切换到指定的分支，我这里指定的是`master`
 
 - `git`新建分支
-    - `git checkout -b <branch>`：保留当前分支的`commit`历史，开一个新分支，这时候`merge`原分支是最新的
-    - `git checkout --orphan <branch>`：开一个没有`commit`历史的独立分支，这两个分支是独立的
-    - 在实际工作中，用第一个保留历史的最好，因为独立分支的话，后续应用主分支的修改还要`merge`，就会把该分支第一次的`commit`全`merge`过来，效果和第一个一样，但是更费力，不推荐，除非是功能不相干的分支，使用第二个比较好
-    - 最终`push`到远端的时候需要显式指定分支，这里最好加上都`-u`参数
+  - `git checkout -b <branch>`：保留当前分支的`commit`历史，开一个新分支，这时候`merge`原分支是最新的
+  - `git checkout --orphan <branch>`：开一个没有`commit`历史的独立分支，这两个分支是独立的
+  - 在实际工作中，用第一个保留历史的最好，因为独立分支的话，后续应用主分支的修改还要`merge`，就会把该分支第一次的`commit`全`merge`过来，效果和第一个一样，但是更费力，不推荐，除非是功能不相干的分支，使用第二个比较好
+  - 最终`push`到远端的时候需要显式指定分支，这里最好加上都`-u`参数
 
 - 恢复`修改 M`和`删除 D`的文件：`git chekcout .`
 - 删除`未追踪 U`的文件：`git clean -fd`
@@ -70,34 +70,35 @@ updated: 2024-05-11 20:10:00
 
 - `git`在合并的时候全部采用某一端的文件：[https://blog.csdn.net/chaiyu2002/article/details/83791671](https://blog.csdn.net/chaiyu2002/article/details/83791671)
 
-    - `merge`的时候加上采用传入端或者本端
-        - 采用传入修改：`git merge <branch> --strategy-option theirs`
-        
-        - 采用本地修改：`git merge <branch> --strategy-option ours`
-        
-    - 如果显示`unrelated histories`，在后面加上`--allow-unrelated-histories`
+  - `merge`的时候加上采用传入端或者本端
+    - 采用传入修改：`git merge <branch> --strategy-option theirs`
 
-    - 同理`git pull`在冲突需要合并的时候也可以采取这样的方法
+    - 采用本地修改：`git merge <branch> --strategy-option ours`
+
+  - 如果显示`unrelated histories`，在后面加上`--allow-unrelated-histories`
+
+  - 同理`git pull`在冲突需要合并的时候也可以采取这样的方法
 
 - `git`同步远程已删除的分支和删除本地多余的分支：[https://www.cnblogs.com/saysmy/p/9166331.html](https://www.cnblogs.com/saysmy/p/9166331.html)
-    - 查看本地分支和追踪情况：`git remote show origin`
-    - 同步远程已删除的分支：`git remote prune origin`
-    - 删除本地分支：`git branch -D <branch>`
+  - 查看本地分支和追踪情况：`git remote show origin`
+  - 同步远程已删除的分支：`git remote prune origin`
+  - 删除本地分支：`git branch -D <branch>`
 
 - `git`删除远程分支：`git push origin --delete <branch>`
 
 - `git`重命名分支
 
-    - 重命名本地分支：`git branch -m <newName>`
-    - 如何重命名远程分支？
-        - 首先将本地对应的分支（一般都是与远程分支相同，如果不同请跳过这一步）重命名为想要的名字
-        - 然后将原远程分支删除
-        - 最后重新将本地重命名的分支推送上去即可：`git push -u origin <newBranch>`
+  - 重命名本地分支：`git branch -m <newName>`
+  - 如何重命名远程分支？
+    - 首先将本地对应的分支（一般都是与远程分支相同，如果不同请跳过这一步）重命名为想要的名字
+    - 然后将原远程分支删除
+    - 最后重新将本地重命名的分支推送上去即可：`git push -u origin <newBranch>`
 
 - `git`将`vim`设置为默认编辑器（默认的是`nano`，用着不太习惯）：`git config --global core.editor vim`
 
 - `git`指定合并某次的`commit`（相当于可以跳过`git tree`中间的一些`commit`）：`git cherry-pick`命令
-    - [https://geek-docs.com/git/git-questions/1103_git_git_skipping_specific_commits_when_merging.html](https://geek-docs.com/git/git-questions/1103_git_git_skipping_specific_commits_when_merging.html)
-    - [https://geek-docs.com/git/git-questions/71_git_git_cherry_picking_with_ourstheirs_strategy.html](https://geek-docs.com/git/git-questions/71_git_git_cherry_picking_with_ourstheirs_strategy.html)
-    - [https://zhuanlan.zhihu.com/p/355413226](https://zhuanlan.zhihu.com/p/355413226)
+  - [https://geek-docs.com/git/git-questions/1103_git_git_skipping_specific_commits_when_merging.html](https://geek-docs.com/git/git-questions/1103_git_git_skipping_specific_commits_when_merging.html)
+  - [https://geek-docs.com/git/git-questions/71_git_git_cherry_picking_with_ourstheirs_strategy.html](https://geek-docs.com/git/git-questions/71_git_git_cherry_picking_with_ourstheirs_strategy.html)
+  - [https://zhuanlan.zhihu.com/p/355413226](https://zhuanlan.zhihu.com/p/355413226)
+- `git`报错`fatal: bad object refs/remotes/origin/xxx`解决方法：[https://www.cnblogs.com/along007/p/17335825.html](https://www.cnblogs.com/along007/p/17335825.html)
 

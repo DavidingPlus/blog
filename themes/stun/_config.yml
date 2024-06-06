@@ -53,10 +53,10 @@ menu:
   home: / || fas fa-home
   archives: /archives/ || fas fa-folder-open
   categories: /categories/ || fas fa-layer-group
-  algo: /algo/ || fas fa-laptop
   games: javascript:; || fas fa-gamepad
   other: javascript:; || fas fa-bars
   about: /about/ || fas fa-user
+  code-browser: https://lzx0626.me/code-browser || fab fa-sourcetree
   # tags: /tags/ || fas fa-tags
   # You can add a secondary menu like follow.
   # xxx1: javascript:; || fa(s|r|l|d|b) fa-xxx
@@ -66,6 +66,7 @@ submenu:
   other:
     friends: /friends/ || fas fa-users
     internship: /internship/ || fas fa-briefcase
+    algo: /algo/ || fas fa-laptop
   games:
     # TODO 给这些游戏添加图标
     wzq: /games/wzq/

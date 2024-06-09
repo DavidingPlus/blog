@@ -12,7 +12,7 @@ title: friends
     {
         "avatar": "https://lzx0626.me/assets/android-chrome-512x512.webp",
         "name": "DavidingPlus",
-        "introduction": "首先你需要努力，其次你才能获得快乐.",
+        "introduction": "Self-discipline is the key in life.",
         "url": "https://lzx0626.me"
     }
 ~~~

@@ -53,24 +53,25 @@ menu:
   home: / || fas fa-home
   archives: /archives/ || fas fa-folder-open
   categories: /categories/ || fas fa-layer-group
-  games: javascript:; || fas fa-gamepad
-  other: javascript:; || fas fa-bars
+  # TODO 暂时关闭游戏页面
+  # games: javascript:; || fas fa-gamepad
+  others: javascript:; || fas fa-bars
   about: /about/ || fas fa-user
-  code-browser: https://lzx0626.me/code-browser || fab fa-sourcetree
+  code-browser: https://lzx0626.me/code-browser/ || fab fa-sourcetree
   # tags: /tags/ || fas fa-tags
   # You can add a secondary menu like follow.
   # xxx1: javascript:; || fa(s|r|l|d|b) fa-xxx
 
 # Secondary menu
 submenu:
-  other:
+  others:
     friends: /friends/ || fas fa-users
     internship: /internship/ || fas fa-briefcase
     algo: /algo/ || fas fa-laptop
-  games:
-    # TODO 给这些游戏添加图标
-    wzq: /games/wzq/
-    2048_game: /games/2048/
+    # games:
+    #   # TODO 给这些游戏添加图标
+    #   wzq: /games/wzq/
+    #   2048_game: /games/2048/
 
   # Add item of secondary menu in here.
   # xxx1:
@@ -238,12 +239,12 @@ footer:
     color: '#ff0000'
   # Hexo link
   powered:
-    enable: false
+    enable: true
     # Whether to show version after Hexo link (e.g. vX.X.X)
     version: true
   # Theme link
   theme:
-    enable: false
+    enable: true
     # Whether to show version after theme link (e.g. vX.X.X)
     version: true
   # Beian information for Chinese users, see: http://www.miitbeian.gov.cn/
@@ -253,8 +254,8 @@ footer:
     icp:
   # Any custom text (e.g. Hosted by <a href="https://pages.github.com/" rel="noopener" target="_blank">Github Pages</a>)
   custom:
-    enable: true
-    text: Nothing is true, everything is permitted.
+    enable: false
+    text:
 
 # Creative Commons 4.0 International License
 creative_commons:
@@ -329,7 +330,7 @@ author:
     # Optional values: turn | shake
     animation: shake
   # Your favorite motto.
-  motto: 想找个好工作.
+  motto: Self-discipline is the key in life.
 
 # Social links
 # Value before `||` is the target link, value after `||` is the name of FontAwesome icon.

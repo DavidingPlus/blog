@@ -17,13 +17,13 @@ menu:
   tags: 标签
   about: 关于
   friends: 友链
-  other: 其他
+  others: 其他
   code-browser: 源码网站
   algo: 算法
   internship: 实习
-  games: 娱乐
-  wzq: 五子棋
-  2048_game: '2048'
+  # games: 娱乐
+  # wzq: 五子棋
+  # 2048_game: '2048'
 
 # 归档页、分类页、标签页
 page:

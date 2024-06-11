@@ -330,7 +330,7 @@ author:
     # Optional values: turn | shake
     animation: shake
   # Your favorite motto.
-  motto: Self-discipline is the key in life.
+  motto: Self-discipline is key in life.
 
 # Social links
 # Value before `||` is the target link, value after `||` is the name of FontAwesome icon.

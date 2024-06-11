@@ -13,7 +13,7 @@ comments: false
 
 哦对了，我不玩原神。喜欢篮球，喜欢老詹。欢迎和我交朋友，一起学习和进步！~~南通别来~~。
 
-**<u>Self-discipline is the key in life.</u>**
+**<u>Self-discipline is key in life.</u>**
 
 <img src="/images/about/lbj.webp" style="zoom: 80%;" />
 

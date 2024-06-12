@@ -162,9 +162,9 @@ header:
     # Effective for all pages.
     enable: true
     # You can override it by `header_title` in Front-Matter of .md
-    title: DavidingPlus的博客
+    title: DavidingPlus
     # You can override it by `header_subtitle` in Front-Matter of .md
-    subtitle: 学习过程中的感悟和收获
+    subtitle: free Palestine
   # Mask effect of the background image.
   mask:
     enable: true

@@ -66,7 +66,6 @@ menu:
 submenu:
   others:
     friends: /friends/ || fas fa-users
-    internship: /internship/ || fas fa-briefcase
     algo: /algo/ || fas fa-laptop
     # games:
     #   # TODO 给这些游戏添加图标

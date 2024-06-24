@@ -1,0 +1,15 @@
+# master
+
+此文件会被上传到`master`分支的根目录，做`README.md`文档用
+
+- 本文档不采用小写`.md`结尾是因为`hexo`会自动把`md`转化为`html`，所以这里就用大写的`.MD`了...
+
+- 我的网站的部署分支`master`
+
+- 采用`hexo deploy`集成命令和`GitHub Pages`服务自动部署
+
+- 绑定域名`lzx0626.me`（国内的域名服务商太 `s8` 了，绑定以后不管开不开梯子都慢，我直接用国外的吧，我自己看，开个梯子就行了）
+
+- 本目录中存放的`favicon.ico`文件部署以后会在部署分支的根目录下，是为`code browser`的标题`icon`服务的，因为它的地址是[https://lzx0626.me/code-browser](https://lzx0626.me/code-browser)，根目录还是在本项目的部署分支，虽然在`github`上是两个不同的项目，但是部署以后的效果是这样的，因此需要在本项目部署分支的根目录放上`favicon.ico`
+
+

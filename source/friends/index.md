@@ -10,7 +10,7 @@ title: 友链
 
 ~~~json
     {
-        "avatar": "https://lzx0626.me/assets/android-chrome-512x512.webp",
+        "avatar": "https://blog.lzx0626.me/assets/android-chrome-512x512.webp",
         "name": "DavidingPlus",
         "introduction": "Self-discipline is key in life.",
         "url": "https://lzx0626.me"

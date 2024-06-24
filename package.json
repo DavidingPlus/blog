@@ -8,7 +8,7 @@
     "d": "sudo npx hexo clean && npx hexo g && npx gulp && npx hexo d && git add . && git commit -m 'update Code' && git push -u origin code"
   },
   "hexo": {
-    "version": "7.1.1"
+    "version": "7.2.0"
   },
   "dependencies": {
     "acorn": "^8.11.2",

@@ -1,5 +1,5 @@
 ---
-title: algo
+title: 算法
 comments: false
 toc: true # 在这一页启用目录功能
 ---

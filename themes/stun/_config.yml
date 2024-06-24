@@ -57,7 +57,7 @@ menu:
   # games: javascript:; || fas fa-gamepad
   others: javascript:; || fas fa-bars
   about: /about/ || fas fa-user
-  code-browser: https://lzx0626.me/code-browser/ || fab fa-sourcetree
+  homepage: https://lzx0626.me/ || fas fa-pager
   # tags: /tags/ || fas fa-tags
   # You can add a secondary menu like follow.
   # xxx1: javascript:; || fa(s|r|l|d|b) fa-xxx
@@ -161,7 +161,7 @@ header:
     # Effective for all pages.
     enable: true
     # You can override it by `header_title` in Front-Matter of .md
-    title: DavidingPlus
+    title: DavidingPlus's Blog
     # You can override it by `header_subtitle` in Front-Matter of .md
     subtitle: free Palestine
   # Mask effect of the background image.

@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: DavidingPlus
+title: DavidingPlus's Blog
 subtitle: ''
 description: ''
 keywords:
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://lzx0626.me/
+url: https://blog.lzx0626.me/
 # permalink: :year/:month/:day/:title/
 # 设置永久链接
 permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink
@@ -165,7 +165,7 @@ hexo_seo_autopush:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
 - type: git
-  repo: git@github.com:DavidingPlus/DavidingPlus.github.io.git
+  repo: git@github.com:DavidingPlus/blog.git
   branch: master
   # message: "update Site" # 注释掉以使用默认的 commit 信息，带有具体提交时间
   ignore_hidden: false # 部署的时候最好不要跳过隐藏的文件，例如.开头的文件，可能这些文件是配置文件或者依赖文件，跳过可能会导致网站无法正常访问

@@ -1,4 +1,4 @@
-# master
+# blog
 
 此文件会被上传到`master`分支的根目录，做`README.md`文档用
 

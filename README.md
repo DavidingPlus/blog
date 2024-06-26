@@ -1,4 +1,4 @@
-# code
+# blog
 
 目前只在`Linux`下跑通，暂未做`Windows`平台适配。
 

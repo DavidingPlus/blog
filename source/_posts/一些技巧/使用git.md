@@ -2,7 +2,7 @@
 title: 使用git
 categories:
   - 一些技巧
-top: 2
+top: 1
 abbrlink: 13ca1b18
 date: 2024-04-24 20:15:00
 updated: 2024-06-17 23:35:00

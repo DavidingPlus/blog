@@ -41,8 +41,8 @@ jobs:
           name: Blog
           path: public
 
-      # 部署到 master 分支
-      - name: Deploy to master
+      # 部署到 gh-pages 分支
+      - name: Deploy to gh-pages
         # 链接 https://github.com/crazy-max/ghaction-github-pages/
         uses: crazy-max/ghaction-github-pages@v4.0.0
         with:

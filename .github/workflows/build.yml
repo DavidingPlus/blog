@@ -50,5 +50,6 @@ jobs:
           build_dir: public
           keep_history: true
           fqdn: blog.lzx0626.me
+          allow_empty_commit: false
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}

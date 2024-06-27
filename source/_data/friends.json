@@ -1,50 +1,62 @@
 [
     {
         "avatar": "/images/friends/ignotusjee.webp",
-        "name": "Ignotus",
+        "name": "IgnotusJee",
         "introduction": "有人生来就被幸福拥抱，有人生来就被长夜围绕。",
-        "url": "https://ignotusjee.github.io"
+        "url": "https://ignotusjee.github.io/"
+    },
+    {
+        "avatar": "/images/friends/sytmdm.webp",
+        "name": "sytmdm",
+        "introduction": "躺平是我今天的 full time",
+        "url": "https://sytmdm.github.io/"
+    },
+    {
+        "avatar": "/images/friends/yangjx29.webp",
+        "name": "yangjx29",
+        "introduction": "如图所示 ←",
+        "url": "https://yangjx29.github.io/"
     },
     {
         "avatar": "/images/friends/gilbert-newton-lewis.webp",
         "name": "GilbertNewtonLewis",
         "introduction": "Be one with Yuri!",
-        "url": "https://GilbertNewtonLewis.github.io"
+        "url": "https://GilbertNewtonLewis.github.io/"
     },
     {
         "avatar": "/images/friends/mriiiron.webp",
         "name": "mriiiron",
         "introduction": "专业, 简洁, 优雅。",
-        "url": "http://caiyi.tech"
+        "url": "http://caiyi.tech/"
     },
     {
         "avatar": "/images/friends/laobai.webp",
         "name": "baizj",
         "introduction": "教学和研发过程中的经验分享。",
-        "url": "https://baizj.gitee.io"
+        "url": "https://baizj.gitee.io/"
     },
     {
         "avatar": "/images/friends/van.webp",
         "name": "Van",
         "introduction": "Dream of being a good full-stack engineer",
-        "url": "https://www.wchvan.online"
+        "url": "https://www.wchvan.online/"
     },
     {
         "avatar": "/images/friends/zhangmo.svg",
         "name": "丈墨",
         "introduction": "我本将心向明月，奈何明月照沟渠。",
-        "url": "https://zhang-mo-blog.vercel.app/zh"
+        "url": "https://zhang-mo-blog.vercel.app/zh/"
     },
     {
         "avatar": "/images/friends/gemini.webp",
         "name": "GeminiPlanet",
-        "introduction": "Hello,My Little Prince!",
-        "url": "https://geminiplanet.cn"
+        "introduction": "Hello, My Little Prince!",
+        "url": "https://geminiplanet.cn/"
     },
     {
         "avatar": "/images/friends/avatar.webp",
         "name": "liuyib",
-        "introduction": "write code and love life",
-        "url": "https://liuyib.github.io"
+        "introduction": "write code and love life.",
+        "url": "https://liuyib.github.io/"
     }
 ]

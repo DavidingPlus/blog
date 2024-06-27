@@ -3,15 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "clean": "sudo npx hexo clean",
-    "dev": "sudo npx hexo clean && npx hexo g && npx hexo s",
-    "build": "sudo npx hexo clean && npx hexo g && npx gulp"
+    "clean": "npx hexo clean",
+    "dev": "npx hexo clean && npx hexo generate && npx hexo server",
+    "build": "npx hexo clean && npx hexo generate && npx gulp"
   },
   "hexo": {
     "version": "7.2.0"
   },
   "dependencies": {
-    "acorn": "^8.11.2",
     "gulp": "^5.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^3.0.0",
@@ -20,6 +19,7 @@
     "hexo": "^7.1.1",
     "hexo-abbrlink": "^2.2.1",
     "hexo-deployer-git": "^4.0.0",
+    "hexo-fs": "^4.1.3",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index-pin-top-sort-by-updated-time": "^0.2.2",

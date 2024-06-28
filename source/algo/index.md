@@ -1,14 +1,14 @@
 ---
 title: 算法
 comments: false
-toc: true # 在这一页启用目录功能
+toc: false # 在这一页不启用目录功能
 ---
 
 # <center>算法</center>
 
-本页总结了关于`算法学习`的大纲。
+目前暂时没有时间和精力梳理算法的相关文章，因此这部分就放一些比较优质的算法学习网站和仓库吧。
 
-## 简介
-
-- [关于算法](/posts/36727525.html)
+- 我自己`github`的算法学习仓库：[https://github.com/DavidingPlus/algorithm/](https://github.com/DavidingPlus/algorithm/)
+- `labuladong`的算法笔记：[https://labuladong.online/algo/](https://labuladong.online/algo/)
+- 代码随想录：[https://programmercarl.com/](https://programmercarl.com/)
 

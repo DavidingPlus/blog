@@ -2,7 +2,6 @@
 title: tips
 categories:
   - 一些技巧
-top: 2
 abbrlink: 642c4108
 date: 2024-06-26 16:05:00
 updated: 2024-06-26 16:05:00

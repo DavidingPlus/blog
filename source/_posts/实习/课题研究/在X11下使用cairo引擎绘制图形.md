@@ -3,9 +3,10 @@ title: 在X11下使用cairo引擎绘制图形
 categories:
   - 实习
   - 课题研究
+top: 1
 abbrlink: f29dfbb5
 date: 2024-07-02 18:30:00
-updated: 2024-07-02 23:35:00
+updated: 2024-07-03 23:00:00
 ---
 
 <meta name="referrer" content="no-referrer"/>
@@ -17,6 +18,14 @@ updated: 2024-07-02 23:35:00
 <img src="https://img-blog.csdnimg.cn/direct/399d4439eeff4e02812c87f6250c3de3.png" alt="6be4cdf74bcd179c38d446809ccb67e0" style="zoom: 50%;" />
 
 <!-- more -->
+
+# 安装Cairo库
+
+TODO
+
+# 使用Cairo库绘制图形
+
+TODO
 
 代码如下：
 
@@ -126,6 +135,3 @@ void draw_star(cairo_t *cr, double cx, double cy, double radius, double rotation
 }
 
 ```
-
-TODO
-

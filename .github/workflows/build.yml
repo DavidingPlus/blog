@@ -1,11 +1,11 @@
-# Code 分支推送部署预览
+# dev 分支推送部署预览
 ## 已做好 Windows 和 Linux 跨平台适配，但是 CI 还是选择在 Linux 上跑
-name: Build Code
+name: Build Source Code
 
 on:
   push:
     branches:
-      - code
+      - dev
 
 jobs:
   release:

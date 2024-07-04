@@ -4,7 +4,7 @@ categories:
   - 一些技巧
 abbrlink: 642c4108
 date: 2024-06-26 16:05:00
-updated: 2024-06-26 16:05:00
+updated: 2024-07-04 21:00:00
 ---
 
 <meta name="referrer" content="no-referrer"/>
@@ -298,4 +298,6 @@ updated: 2024-06-26 16:05:00
 - windows下powershell中类似find命令的替代：[https://blog.csdn.net/yao_zhuang/article/details/115645435](https://blog.csdn.net/yao_zhuang/article/details/115645435)
 
 - windows下配置临时变量：[https://blog.csdn.net/qq_23212697/article/details/69177654](https://blog.csdn.net/qq_23212697/article/details/69177654)
+
+- 虚拟机网卡掉了，没网：[https://blog.csdn.net/qq_40344790/article/details/120645806](https://blog.csdn.net/qq_40344790/article/details/120645806)
 

@@ -413,7 +413,7 @@ reward:
   enable: false
   # Your QR code for collecting money.
   alipay: /images/pay/alipay.webp
-  wechat: /images/pay/wechat.webp
+  wechat: /images/pay/wechat-pay.webp
 
 # ---------------------------------------------------------------
 # Post config

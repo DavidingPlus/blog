@@ -1,5 +1,5 @@
 ---
-title: wechat
+title: 微信
 comments: false
 ---
 
@@ -7,6 +7,8 @@ comments: false
 
 - [回到首页 ←](/)
 - [所有文章 ←](/archives/)
+
+请扫码加我：
 
 <img src="/images/social/wechat.webp" style="zoom: 40%;" />
 

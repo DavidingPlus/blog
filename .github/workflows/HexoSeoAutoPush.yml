@@ -19,7 +19,7 @@ jobs:
           node-version: latest
       - run: |
           npm init -y
-          npm install hexo-seo-autopush-plus
+          npm install hexo-seo-autopush
 
       
         

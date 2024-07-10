@@ -93,7 +93,7 @@ favicon:
   # ! --------------------------------------------------
   # ! If you don't know the following, please ignore it.
   # ! --------------------------------------------------
-  apple_touch_icon: assets/apple-touch-icon.webp
+  apple_touch_icon: /assets/apple-touch-icon.webp
   # safari_pinned_tab: /images/icons/stun-logo.svg
   # msapplication: /images/icons/favicon-144x144.png
 

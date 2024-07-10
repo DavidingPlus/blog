@@ -3,16 +3,16 @@ if theme.cursor_effect == "fireworks"
   script(async, src="/js/cursor/fireworks.js")
 else if theme.cursor_effect == "explosion"
   canvas.fireworks(style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;")
-  script(src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js")
-  script(async, src="/js/cursor/explosion.min.js")
+  script(src="/js/cursor/anime.js")
+  script(async, src="/js/cursor/explosion.js")
 else if theme.cursor_effect == "love"
-  script(async, src="/js/cursor/love.min.js")
+  script(async, src="/js/cursor/love.js")
 else if theme.cursor_effect == "text"
   script(async, src="/js/cursor/text.js")
 
 //- 打字特效
 if theme.typing_effect
-  script(src="/js/activate-power-mode.min.js")
+  script(src="/js/activate-power-mode.js")
   script.
     POWERMODE.colorful = #{theme.typing_effect.colorful};
     POWERMODE.shake = #{theme.typing_effect.shake};

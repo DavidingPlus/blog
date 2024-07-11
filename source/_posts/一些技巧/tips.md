@@ -11,8 +11,6 @@ updated: 2024-07-04 21:00:00
 
 本文总结了工作过程中可能遇到的各种问题的解决方法的链接。
 
-<!-- more -->
-
 - code的c++的代码规范格式
 
   c++插件设置搜索format，C_Cpp: Clang_format_fallback Style中填入，详见clang-format-fallback-style目录的config.json
@@ -21,6 +19,8 @@ updated: 2024-07-04 21:00:00
 
   - [https://blog.csdn.net/weixin_43717839/article/details/129382657](https://blog.csdn.net/weixin_43717839/article/details/129382657)
   - [https://blog.csdn.net/qq_29856169/article/details/119617736](https://blog.csdn.net/qq_29856169/article/details/119617736)
+
+<!-- more -->
 
   ~~~json
   {

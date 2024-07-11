@@ -9,12 +9,6 @@ updated: 2024-06-20 23:15:00
 
 <meta name="referrer" content="no-referrer"/>
 
-`C++ Primer`的学习。
-
-<!-- more -->
-
-`markdown`：[https://github.com/DavidingPlus/study-notes/blob/master/%E4%B8%BA%E4%BA%86%E5%B7%A5%E4%BD%9C/Cpp/C%2B%2BPrimer.md](https://github.com/DavidingPlus/study-notes/blob/master/%E4%B8%BA%E4%BA%86%E5%B7%A5%E4%BD%9C/Cpp/C%2B%2BPrimer.md)
-
 # 第一章 开始
 
 ## 编写一个简单的C++程序
@@ -27,6 +21,8 @@ return 0;
 ```
 
 每个C++程序都包含一个或多个函数，其中一个必须命名为main.
+
+<!-- more -->
 
 ## 初识输入输出
 

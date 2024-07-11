@@ -27,3 +27,9 @@
 - 对于本项目，在部署的时候不能使用`Github Actions`的静态页面部署，也就是对应`static.yml`的部署方式，我也不知道为什么。正确的做法是在`Github Pages`的`Build and deployment`的`source`中选择`Deploy from a branch`，也就是从一个分支部署。
 - 在`package.json`中存储了所有依赖包以及版本号，位于`dependencies`字段，例如`hexo`的`7.2.0`。为了防止包更新导致的`API`不兼容或者其他问题，这里使用固定的包版本。注意在写入的时候注意`7.2.0`和`^7.2.0`是有区别的。对于`^7.2.0`，如果有更新的包，比如`7.3.0`，会选择`7.3.0`的包，完整的规则我不是很清楚，反正包的版本不是固定的。`7.2.0`就是固定的这个版本的包。因此在`npm install <package> --save`以后，记得手动删除包版本前面的`^`符号，以保证使用固定的版本的包。目前决定使用`7.2.0`固定版本的`hexo`包。
 
+TODO LIST:
+
+1. 研究`pjax`中部分加载的`loading-bar`的逻辑，`pjax.pug`可能有`bug`。进一步选择美化进度加载，现在是一个进度条。个人想弄一个全屏的加载动画，样式参考文章：[https://www.jianshu.com/p/808a647dc324](https://www.jianshu.com/p/808a647dc324)。
+
+2. 补充实习的课题研究以及`code browser`的搭建的相关文章。
+

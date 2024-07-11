@@ -9,14 +9,6 @@ updated: 2023-09-20 01:00:00
 
 <meta name="referrer" content="no-referrer"/>
 
-`侯捷老师C++课程`的学习。
-
-<!-- more -->
-
-`markdown`：[https://github.com/DavidingPlus/study-notes/blob/master/%E4%B8%BA%E4%BA%86%E5%B7%A5%E4%BD%9C/Cpp/%E4%BE%AF%E6%8D%B7%E8%80%81%E5%B8%88C%2B%2B%E8%AF%BE%E7%A8%8B.md](https://github.com/DavidingPlus/study-notes/blob/master/%E4%B8%BA%E4%BA%86%E5%B7%A5%E4%BD%9C/Cpp/%E4%BE%AF%E6%8D%B7%E8%80%81%E5%B8%88C%2B%2B%E8%AF%BE%E7%A8%8B.md)
-
-代码：[https://github.com/DavidingPlus/Cpp_Learning/tree/houjie](https://github.com/DavidingPlus/Cpp_Learning/tree/houjie)
-
 # 面向对象高级开发
 
 ## Header头文件的防卫式声明
@@ -33,6 +25,8 @@ updated: 2023-09-20 01:00:00
 
 #endif
 ```
+
+<!-- more -->
 
 ## inline 函数
 

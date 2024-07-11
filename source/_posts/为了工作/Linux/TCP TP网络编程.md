@@ -9,23 +9,17 @@ updated: 2024-06-20 23:00:00
 
 <meta name="referrer" content="no-referrer"/>
 
-`TCP IP网络编程`的学习。
-
-<!-- more -->
-
-`markdown`：[https://github.com/DavidingPlus/study-notes/blob/master/%E4%B8%BA%E4%BA%86%E5%B7%A5%E4%BD%9C/Linux/TCP%20TP%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B.md](https://github.com/DavidingPlus/study-notes/blob/master/%E4%B8%BA%E4%BA%86%E5%B7%A5%E4%BD%9C/Linux/TCP%20TP%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B.md)
-
-代码：[https://github.com/DavidingPlus/linux-learning/tree/tcp-ip](https://github.com/DavidingPlus/linux-learning/tree/tcp-ip)
-
 # 前言
 
-里面需要很多计算机网络的知识，我也懒得写了，在计算机网络复习当中有写到，这是文章的链接：[计算机网络期末复习](https://lzx0626.me/posts/b9598422.html)
+里面需要很多计算机网络的知识，我也懒得写了，在计算机网络复习当中有写到，这是文章的链接：[计算机网络期末复习](https://blog.lzx0626.me/posts/b9598422.html)
 
 # 第一章 理解网络编程和套接字
 
 ## 理解网络编程和套接字
 
 网络编程的目的就是使两台联网的计算机相互交换数据。首先需要物理连接，这一点已经达到了，基本上所有的电脑都是连通庞大的互联网的，所以这一点不需要担心；在此基础上我们只需要考虑如何使用程序来将两个主机建立连接即可，操作系统会给我们提供名为套接字(`socket`)的部件。
+
+<!-- more -->
 
 ### TCP套接字
 

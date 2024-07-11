@@ -15,5 +15,5 @@ comments: false
 
 **<u>Self-discipline is key in life.</u>**
 
-<img src="/images/about/lbj.webp" style="zoom: 80%;" />
+<img src="https://img-blog.csdnimg.cn/1867f61e47c447b681b9e4f1f92d105c.png" style="zoom: 80%;" />
 

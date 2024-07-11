@@ -9,14 +9,6 @@ updated: 2024-06-20 23:05:00
 
 <meta name="referrer" content="no-referrer"/>
 
-`UNIX环境高级编程`的学习。
-
-<!-- more -->
-
-`markdown`：[https://github.com/DavidingPlus/study-notes/blob/master/%E4%B8%BA%E4%BA%86%E5%B7%A5%E4%BD%9C/Linux/UNIX%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B.md](https://github.com/DavidingPlus/study-notes/blob/master/%E4%B8%BA%E4%BA%86%E5%B7%A5%E4%BD%9C/Linux/UNIX%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B.md)
-
-代码：[https://github.com/DavidingPlus/linux-learning/tree/unix-apue](https://github.com/DavidingPlus/linux-learning/tree/unix-apue)
-
 # 第一章 UNIX基础知识
 
 ## UNIX体系结构
@@ -26,6 +18,8 @@ updated: 2024-06-20 23:05:00
 以下是UNIX系统的体系结构图：
 
 ![image-20230827151538210](https://img-blog.csdnimg.cn/62a333cde5004147b09e2b318c6c6ca7.png)
+
+<!-- more -->
 
 内核的接口被称为**系统调用**，公共函数库，比如C语言的C runtime library就是依托在操作系统提供的API上的，这导致C语言的标准库能够完美适配各种系统，我们的程序既可以使用公共函数库，也可以使用操作系统的API，也就是系统调用
 
@@ -2241,7 +2235,7 @@ $ ln /root/1.txt /tmp
 
 ![image-20230901102054279](https://img-blog.csdnimg.cn/5a5325485a3d4f5a995950756ba2f6f0.png)
 
-### i结点
+### i 结点
 
 `i`结点包含了文件有关的所有信息，`stat`中的大部分信息都是来自`i`结点：**文件类型，文件访问权限位，文件长度和指向文件数据块的指针**等等，下面是一个图表示了磁盘中的存储结构：
 

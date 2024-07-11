@@ -363,7 +363,7 @@ toc:
   # Automatically add list number to toc.
   list_number: true
   # If true, all words will be placed on the next lines when they overflow.
-  wrap: false
+  wrap: true
   # If true, the toc of post will always be displayed, rather than the activated part of it.
   expand_all: false
   # Minimum heading depth of generated toc.

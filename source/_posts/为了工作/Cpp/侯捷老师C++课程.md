@@ -1,7 +1,7 @@
 ---
 title: 侯捷老师C++课程
 categories:
-  - C++学习
+  - Cpp学习
 abbrlink: fcd2b034
 date: 2023-09-20 01:00:00
 updated: 2023-09-20 01:00:00

@@ -6,7 +6,7 @@ categories:
 top: 1
 abbrlink: f29dfbb5
 date: 2024-07-02 18:30:00
-updated: 2024-07-09 12:55:00
+updated: 2024-07-12 15:40:00
 ---
 
 <meta name="referrer" content="no-referrer"/>
@@ -15,7 +15,7 @@ updated: 2024-07-09 12:55:00
 
 这是效果图：
 
-<img src="https://i-blog.csdnimg.cn/direct/ed34193b9fb044ab8de7ae188f617972.png" alt="59cb53826fcba1602fd3769171f5f127" style="zoom: 67%;" />
+<img src="https://img-blog.csdnimg.cn/direct/69a40467c7b144a2a2c1fa9aa0725b43.png" alt="59cb53826fcba1602fd3769171f5f127" style="zoom:67%;" />
 
 <!-- more -->
 

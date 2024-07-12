@@ -4,7 +4,7 @@ categories:
   - 一些技巧
 abbrlink: 642c4108
 date: 2024-06-26 16:05:00
-updated: 2024-07-04 21:00:00
+updated: 2024-07-12 15:35:00
 ---
 
 <meta name="referrer" content="no-referrer"/>
@@ -237,6 +237,8 @@ updated: 2024-07-04 21:00:00
 
   - [https://zhuanlan.zhihu.com/p/35283688](https://zhuanlan.zhihu.com/p/35283688)
   - [https://zhuanlan.zhihu.com/p/265525597](https://zhuanlan.zhihu.com/p/265525597)
+
+- zsh推荐字体：[https://gitee.com/keyboardkiller/MesloLGS_NF](https://gitee.com/keyboardkiller/MesloLGS_NF)
 
 - zsh安装好用插件
 

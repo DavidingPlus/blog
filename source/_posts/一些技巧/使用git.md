@@ -4,7 +4,7 @@ categories:
   - 一些技巧
 abbrlink: 13ca1b18
 date: 2024-04-24 20:15:00
-updated: 2024-07-04 21:05:00
+updated: 2024-07-12 15:30:00
 ---
 
 <meta name="referrer" content="no-referrer"/>
@@ -12,6 +12,8 @@ updated: 2024-07-04 21:05:00
 本文是一个`使用git`的简要总结。
 
 # 使用git
+
+- 准备工作，`git`配置`ssh`：[https://blog.csdn.net/lqlqlq007/article/details/78983879](https://blog.csdn.net/lqlqlq007/article/details/78983879)
 
 - 第一次拉取，以`github`服务器为例，其他服务器将`github.com`替换成为对应的`IP`或者域名:`git clone git@github.com:xxx/xxx.git` 前面写用户名，后面写仓库名称；拉取之后会把`github`上的目录拉取到本地，在目录当中会有一个`.git/`隐藏文件夹，不要动它，这是自动生成的配置
 

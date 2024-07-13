@@ -16,7 +16,10 @@
 - 考虑使用`cnpm`
   - 除了npm包管理器以外，推荐使用`cnpm`包管理器来启动本项目。关于本地构建和部署到远端的`cnpm`命令统一，自定义命令统一在`package.json`中，包括清理`cnpm run clean`，本地构建`cnpm run s`，部署到远端`cnpm run d`，其中部署到远端启用了`gulp`压缩文件，本地部署则没有。
   - 记得删除`node_modules`之后每次`cnpm install`之后在`source/_custom_node_modules`当中找到我们修改过的模块覆盖下载下来的，以保证功能正常。
-    - `2024.06.26`更新：已经将修改过后的自定义包发布到`npm`官网了，拉取直接使用即可，不用做覆盖工作了。
+    - `2024.06.26`更新：已经将修改过后的自定义包发布到`npm`官网了，拉取直接使用即可，不用做覆盖工作了。因此删除此目录，后续有自定义的包直接修改给原作者提`pr`或者发布自己的`npm`包即可。
+    - 目前自定义过的`npm`包
+      - [hexo-generator-index-pin-top-better](https://github.com/DavidingPlus/hexo-generator-index-pin-top-better)
+      - [hexo-seo-autopush](https://github.com/Lete114/Hexo-SEO-AutoPush)
   - `2024.07.06`更新：为了拉包的时候同步更新`package-lock.json`，已移除`cnpm`包管理器，就使用原生的`npm`包管理器。
 - 注意没事不要在`GitHub`网页上增添文件，也不要在本地项目中使用`git pull`命令，因为`.deploy_git`这个目录是链接到远端的`master`分支的，然后整个根目录另一个分支`master`，本地没有同步，`git pull`的话在切换，由于没有`.gitignore`就会出现奇奇怪怪的问题，到时候把整个项目删了重新部署，`master`分支的更新时间就重置了，我看着不舒服，所以`Code`就用来推就好了，不用`pull`，切记...。
   - `2024.07.06`更新：源代码`Code`分支更名`dev`，部署分支`master`更名为`gh-pages`。

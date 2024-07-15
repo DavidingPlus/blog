@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@main
         with:
-          ref: 'gh-pages'
+          ref: 'gh-pages-deprecated'
       - uses: actions/setup-node@main
         with:
           node-version: latest

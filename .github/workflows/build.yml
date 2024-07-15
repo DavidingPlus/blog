@@ -55,15 +55,16 @@ jobs:
           name: Blog
           path: dist
 
-      - name: Deploy to gh-pages
+      # 现在部署到我自己的服务器上了，因此 gh-pages 分支废弃，但是该分支需要存在，因为 hexo-seo-autopush
+      - name: Deploy to gh-pages-deprecated
         # 链接 https://github.com/crazy-max/ghaction-github-pages/
         uses: crazy-max/ghaction-github-pages@v4.0.0
         with:
-          target_branch: gh-pages
+          target_branch: gh-pages-deprecated
           build_dir: dist
           keep_history: true
-          fqdn: blog.lzx0626.me
           allow_empty_commit: false
+          # fqdn: xxx 自定义域名
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}   
 

@@ -57,7 +57,7 @@ menu:
   # games: javascript:; || fas fa-gamepad
   others: javascript:; || fas fa-bars
   about: /about/ || fas fa-user
-  homepage: https://lzx0626.me/ || fas fa-pager
+  homepage: https://davidingplus.cn/ || fas fa-pager
   # tags: /tags/ || fas fa-tags
   # You can add a secondary menu like follow.
   # xxx1: javascript:; || fa(s|r|l|d|b) fa-xxx
@@ -248,9 +248,9 @@ footer:
     version: true
   # Beian information for Chinese users, see: http://www.miitbeian.gov.cn/
   beian:
-    enable: false
+    enable: true
     # 备案 XXXXXXXX 号
-    icp:
+    icp: 蜀ICP备2024088070号
   # Any custom text (e.g. Hosted by <a href="https://pages.github.com/" rel="noopener" target="_blank">Github Pages</a>)
   custom:
     enable: false

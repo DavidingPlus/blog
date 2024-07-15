@@ -12,6 +12,7 @@
 - 另一个分支`master`是用来部署网站站点的，因为`hexo deploy`里面的默认分支是`master`，所以就用`master`吧，另一个学长也是这么用的。
 - 关于`CNAME`的问题，`GitHub Pages`想用自定义域名在部署目录下需要有`CNAME`文件，里面存放自定义域名，但是每次部署之后就会自动把`CNAME`清理掉，所以这里我们把`CNAME`放到根目录的`source`中，这样在产生推送文件的时候就能够推送到网站的根目录当中！非常方便！
   - `2024.06.24`更新：自定义域名更新为`blog.lzx0626.me`。
+  - `2024.07.15`更新：自定义域名更新为`blog.davidingplus.cn`，已部署到我自己的服务器上。
 - 关于推送给搜索引擎，使用了一个非常好用的插件`Hexo SEO Auto Push`，这个东西是部署之后在每天的特定时间推送给搜索引擎，而不是部署了就推送了，当然可以作者设定可以手动点击`star`进行推送，官方文档：[https://github.com/Lete114/hexo-seo-autopush.git](https://github.com/Lete114/hexo-seo-autopush.git)，讲的非常清楚，非常好用。
 - 考虑使用`cnpm`
   - 除了npm包管理器以外，推荐使用`cnpm`包管理器来启动本项目。关于本地构建和部署到远端的`cnpm`命令统一，自定义命令统一在`package.json`中，包括清理`cnpm run clean`，本地构建`cnpm run s`，部署到远端`cnpm run d`，其中部署到远端启用了`gulp`压缩文件，本地部署则没有。

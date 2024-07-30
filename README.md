@@ -24,6 +24,7 @@
   - `2024.07.06`更新：为了拉包的时候同步更新`package-lock.json`，已移除`cnpm`包管理器，就使用原生的`npm`包管理器。
 - 注意没事不要在`GitHub`网页上增添文件，也不要在本地项目中使用`git pull`命令，因为`.deploy_git`这个目录是链接到远端的`master`分支的，然后整个根目录另一个分支`master`，本地没有同步，`git pull`的话在切换，由于没有`.gitignore`就会出现奇奇怪怪的问题，到时候把整个项目删了重新部署，`master`分支的更新时间就重置了，我看着不舒服，所以`Code`就用来推就好了，不用`pull`，切记...。
   - `2024.07.06`更新：源代码`Code`分支更名`dev`，部署分支`master`更名为`gh-pages`。
+  - `2024.07.19`更新：源代码`dev`分支更名`master`，部署分支`gh-pages`更名为`gh-pages-deprecated`（未使用`GitHub Pages`，转而部署到我自己的服务器上）。
 - 关于项目中的图片资源，放到公网上以后图片资源如果臃肿，请求的时间是非常长的，网站的效果就会非常不好，因此这里统一使用`webp`后缀的格式，减小体积，加快网站加载速度。
 - 关于项目中的`.deploy_git`目录，实际上是利用`hexo`的插件将代码部署到`github`某仓库的某分支，在这里就是`master`分支，但是`hexo`的`deploy`插件只会强制推送，会丢失`commit`很烦。因此我这里是在插件替我生成该目录以前将当前仓库重新克隆下来，我这里只克隆了`master`分支，为了防止强制推送丢失`commit`，因此每次部署以前进入`.deploy_git`目录`git pull`一下，之后再部署，就不会丢失`commit`了。
   - `2024.06.26`更新：部署的工作交给自动化的`github workflows`了。关于之前的`hexo-deployer-git`包，选择保留，但是不用。
@@ -34,6 +35,4 @@
 TODO LIST:
 
 1. 研究`pjax`中部分加载的`loading-bar`的逻辑，`pjax.pug`可能有`bug`。进一步选择美化进度加载，现在是一个进度条。个人想弄一个全屏的加载动画，样式参考文章：[https://www.jianshu.com/p/808a647dc324](https://www.jianshu.com/p/808a647dc324)。
-
-2. 补充实习的课题研究以及`code browser`的搭建的相关文章。
 

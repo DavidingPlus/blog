@@ -1,11 +1,11 @@
-# dev 分支推送部署预览
+# master 分支推送部署预览
 
 name: Build and Deploy
 
 on:
   push:
     branches:
-      - dev
+      - master
 
 jobs:
   build:

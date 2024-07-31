@@ -38,7 +38,7 @@
     {
         "avatar": "/images/friends/van.webp",
         "name": "Van",
-        "introduction": "Dream of being a good full-stack engineer",
+        "introduction": "Dream of being a good full-stack engineer.",
         "url": "https://www.wchvan.online/"
     },
     {
@@ -56,7 +56,13 @@
     {
         "avatar": "/images/friends/avatar.webp",
         "name": "liuyib",
-        "introduction": "write code and love life.",
+        "introduction": "Write code and love life.",
         "url": "https://liuyib.github.io/"
+    },
+    {
+        "avatar": "/images/friends/hao.webp",
+        "name": "Hao",
+        "introduction": "这是一个用来记录知识和生活的博客。",
+        "url": "http://blog.haoyuming.top"
     }
 ]

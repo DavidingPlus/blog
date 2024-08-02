@@ -2,6 +2,7 @@
 title: 在X11下使用Cairo引擎绘制图形
 categories:
   - 实习
+  - 合迅科技
   - 课题研究
 top: 1
 abbrlink: f29dfbb5

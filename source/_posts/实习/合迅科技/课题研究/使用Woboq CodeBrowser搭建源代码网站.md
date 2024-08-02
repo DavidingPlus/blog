@@ -2,6 +2,7 @@
 title: 使用Woboq CodeBrowser搭建源代码网站
 categories:
   - 实习
+  - 合迅科技
   - 课题研究
 abbrlink: 25ed761b
 date: 2024-07-18 21:20:00

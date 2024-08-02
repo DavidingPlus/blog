@@ -2,6 +2,7 @@
 title: Qt Graphics View Framework 预研
 categories:
   - 实习
+  - 合迅科技
   - 课题研究
 abbrlink: e2c22a62
 date: 2024-07-19 15:10:00

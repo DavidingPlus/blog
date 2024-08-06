@@ -36,7 +36,9 @@ TODO LIST:
 
 1. 研究`pjax`中部分加载的`loading-bar`的逻辑，`pjax.pug`可能有`bug`。进一步选择美化进度加载，现在是一个进度条。个人想弄一个全屏的加载动画，样式参考文章：[https://www.jianshu.com/p/808a647dc324](https://www.jianshu.com/p/808a647dc324)。
 
-2. `CCache`文章`Windows`部分的适配书写。
+2. `pjax`+`reward`混合使用出了些问题，第一次没办法加载出收款码，需要手动刷新一次才行。调研原因并尝试修复。 
 
-3. `Linux`下`gcc`对`map`和`unordered_map`底层的红黑树和哈希表的实现部分细节的总结。
+3. `CCache`文章`Windows`部分的适配书写。
+
+4. `Linux`下`gcc`对`map`和`unordered_map`底层的红黑树和哈希表的实现部分细节的总结。
 

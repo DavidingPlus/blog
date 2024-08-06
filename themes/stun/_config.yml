@@ -53,8 +53,6 @@ menu:
   home: / || fas fa-home
   archives: /archives/ || fas fa-folder-open
   categories: /categories/ || fas fa-layer-group
-  # TODO 暂时关闭游戏页面
-  # games: javascript:; || fas fa-gamepad
   others: javascript:; || fas fa-bars
   about: /about/ || fas fa-user
   homepage: https://davidingplus.cn/ || fas fa-pager
@@ -67,10 +65,6 @@ submenu:
   others:
     friends: /friends/ || fas fa-users
     algo: /algo/ || fas fa-laptop
-    # games:
-    #   # TODO 给这些游戏添加图标
-    #   wzq: /games/wzq/
-    #   2048_game: /games/2048/
 
   # Add item of secondary menu in here.
   # xxx1:
@@ -163,7 +157,7 @@ header:
     # You can override it by `header_title` in Front-Matter of .md
     title: DavidingPlus's Blog
     # You can override it by `header_subtitle` in Front-Matter of .md
-    subtitle: free Palestine
+    subtitle: 🕊️ world peace
   # Mask effect of the background image.
   mask:
     enable: true
@@ -409,7 +403,7 @@ heading_line: true
 
 # Reward QR Code
 reward:
-  # 收款码在打开pjax之后没有办法一次通过pjax加载出来，只能刷新页面才能请求到，所以目前用不了，我还是先把收款码关了吧。。。
+  # TODO 收款码在打开 pjax 之后没有办法一次性加载出来，只能手动刷新一次页面才能请求到，所以目前用不了。
   enable: false
   # Your QR code for collecting money.
   alipay: /images/pay/alipay.webp

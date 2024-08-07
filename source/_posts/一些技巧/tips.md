@@ -4,7 +4,7 @@ categories:
   - 一些技巧
 abbrlink: 642c4108
 date: 2024-06-26 16:05:00
-updated: 2024-07-12 15:35:00
+updated: 2024-08-07 21:40:00
 top: 3
 ---
 
@@ -303,4 +303,20 @@ top: 3
 - windows下配置临时变量：[https://blog.csdn.net/qq_23212697/article/details/69177654](https://blog.csdn.net/qq_23212697/article/details/69177654)
 
 - 虚拟机网卡掉了，没网：[https://blog.csdn.net/qq_40344790/article/details/120645806](https://blog.csdn.net/qq_40344790/article/details/120645806)
+
+- wps绿色版：[https://www.52pojie.cn/thread-1263670-1-1.html](https://www.52pojie.cn/thread-1263670-1-1.html)
+
+- office tool plus下载：[https://otp.landian.vip/zh-cn/](https://otp.landian.vip/zh-cn/)
+
+- office从C盘迁移到其他盘：[https://www.bilibili.com/video/BV1LT411g7Ae/](https://www.bilibili.com/video/BV1LT411g7Ae/)
+
+- 按照上一条视频内容以后报错"**操作系统当前的配置不能运行此应用程序**"
+
+  - [https://blog.csdn.net/m0_57941956/article/details/125575736](https://blog.csdn.net/m0_57941956/article/details/125575736)
+  - 看到最后面，发现目录需要匹配，也就是需要创建在`Program Files/`目录下面，而不能直接放在`D`盘根目录下
+
+  ```powershell
+  mklink /j "C:\Program Files\Microsoft Office" "D:\Program Files\Microsoft Office"
+  ```
+
 

@@ -9,9 +9,9 @@ comments: false
 
 微信支付：
 
-<img src="/images/reward/wechat-pay.webp" style="zoom: 20%;" />
+<img src="/images/reward/wechat-pay.webp" style="zoom: 25%;" />
 
 支付宝支付：
 
-<img src="/images/reward/alipay.webp" style="zoom: 50%;" />
+<img src="/images/reward/alipay.webp" style="zoom: 25%;" />
 

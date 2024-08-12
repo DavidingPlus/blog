@@ -4,7 +4,7 @@ categories:
   - 一些技巧
 abbrlink: 642c4108
 date: 2024-06-26 16:05:00
-updated: 2024-08-07 21:40:00
+updated: 2024-08-12 21:15:00
 top: 3
 ---
 
@@ -306,9 +306,11 @@ top: 3
 
 - wps绿色版：[https://www.52pojie.cn/thread-1263670-1-1.html](https://www.52pojie.cn/thread-1263670-1-1.html)
 
-- office tool plus下载：[https://otp.landian.vip/zh-cn/](https://otp.landian.vip/zh-cn/)
+- Office tool plus下载：[https://otp.landian.vip/zh-cn/](https://otp.landian.vip/zh-cn/)
 
-- office从C盘迁移到其他盘：[https://www.bilibili.com/video/BV1LT411g7Ae/](https://www.bilibili.com/video/BV1LT411g7Ae/)
+- Office 2021专业（增强版）安装教程：[https://www.mrdadong.com/archives/office-2021](https://www.mrdadong.com/archives/office-2021)
+
+- Office从C盘迁移到其他盘：[https://www.bilibili.com/video/BV1LT411g7Ae/](https://www.bilibili.com/video/BV1LT411g7Ae/)
 
 - 按照上一条视频内容以后报错"**操作系统当前的配置不能运行此应用程序**"
 

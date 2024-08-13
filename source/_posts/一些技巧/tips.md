@@ -4,7 +4,7 @@ categories:
   - 一些技巧
 abbrlink: 642c4108
 date: 2024-06-26 16:05:00
-updated: 2024-08-12 21:15:00
+updated: 2024-08-13 15:00:00
 top: 3
 ---
 
@@ -56,18 +56,15 @@ top: 3
 
   - pip换源：[https://blog.csdn.net/JineD/article/details/125090904](https://blog.csdn.net/JineD/article/details/125090904)
 
-- powshell增强，自动补全、主题美化、Git扩展：[https://cloud.tencent.com/developer/article/2317806](https://cloud.tencent.com/developer/article/2317806)
-
-  - 相关powershell配置文件见`./oh-my-posh-theme/Microsoft.PowerShell_profile.ps1`
-  - 在windows中添加alias命令别名：[https://zhuanlan.zhihu.com/p/74881435](https://zhuanlan.zhihu.com/p/74881435)
-
 - windows下的包管理器scoop
 
   - 如何安装：
     - [https://blog.csdn.net/Apple_Coco/article/details/113281197](https://blog.csdn.net/Apple_Coco/article/details/113281197)
     - [https://blog.dejavu.moe/posts/windows-scoop](https://blog.dejavu.moe/posts/windows-scoop)
+    - 推荐使用第二个，使用管理员打开powershell，注意区分开**用户本身和全局安装的路径**
+    - 若最后一步提示管理员权限失败，参考：[https://stackoverflow.com/questions/74763204/installing-scoop-fails-running-the-installer-as-administrator-is-disabled-by-d](https://stackoverflow.com/questions/74763204/installing-scoop-fails-running-the-installer-as-administrator-is-disabled-by-d)
   - 换国内的`scoop`更新源
-    - `scoop config SCOOP_REPO git@gitee.com:scoop-bucket/scoop.git`
+    - `scoop config SCOOP_REPO https://gitee.com/scoop-bucket/scoop.git`
   - 换国内`bucket`的`scoop-cn`源：[https://github.com/duzyn/scoop-cn](https://github.com/duzyn/scoop-cn)
     - 为了保险，将这个`bucket`的名字设置为`main`，防止`update`的时候报`no bucket main`的错误
   - 用`scoop`安装`oh-my-posh`：[https://sspai.com/post/69911](https://sspai.com/post/69911)
@@ -82,7 +79,10 @@ top: 3
     - 禁用某些程序更新：`scoop hold <appName>`
     - 允许某些程序更新：`scoop unhold <appName>`
 
-- 老白的博客：https://baizj.gitee.io/
+- powshell增强，自动补全、主题美化、Git扩展：[https://cloud.tencent.com/developer/article/2317806](https://cloud.tencent.com/developer/article/2317806)
+
+  - 相关powershell配置文件见`.\oh-my-posh-theme\Microsoft.PowerShell_profile.ps1`，将其拷贝到`~\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+  - 在windows中添加alias命令别名：[https://zhuanlan.zhihu.com/p/74881435](https://zhuanlan.zhihu.com/p/74881435)
 
 - pip安装报错
 
@@ -320,5 +320,4 @@ top: 3
   ```powershell
   mklink /j "C:\Program Files\Microsoft Office" "D:\Program Files\Microsoft Office"
   ```
-
 

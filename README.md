@@ -33,6 +33,9 @@
 - 请注意在`Windows`下启动本地服务器以后，使用`Ctrl+C`退出`Hexo`进程的时候会提示`Terminate batch job (Y/N)?`。这时候请手动输入`N`，也就是不终止批处理作业，我也不知道为什么。不要回车或者输入`Y`，否则会导致终端卡死（自己试过，血与泪的教训）。`Linux`不会有这个问题。
 - 对于本项目，在部署的时候不能使用`Github Actions`的静态页面部署，也就是对应`static.yml`的部署方式，我也不知道为什么。正确的做法是在`Github Pages`的`Build and deployment`的`source`中选择`Deploy from a branch`，也就是从一个分支部署。
 - 在`package.json`中存储了所有依赖包以及版本号，位于`dependencies`字段，例如`hexo`的`7.2.0`。为了防止包更新导致的`API`不兼容或者其他问题，这里使用固定的包版本。注意在写入的时候注意`7.2.0`和`^7.2.0`是有区别的。对于`^7.2.0`，如果有更新的包，比如`7.3.0`，会选择`7.3.0`的包，完整的规则我不是很清楚，反正包的版本不是固定的。`7.2.0`就是固定的这个版本的包。因此在`npm install <package> --save`以后，记得手动删除包版本前面的`^`符号，以保证使用固定的版本的包。目前决定使用`7.2.0`固定版本的`hexo`包。
+- 已优化`gitalk`的代理配置`proxy`，目前默认的国内访问会被墙。
+    - 起初阅读`issue`：[https://github.com/gitalk/gitalk/issues/506](https://github.com/gitalk/gitalk/issues/506)
+    - 最后参考项目成功解决：[https://github.com/Dedicatus546/cors-server](https://github.com/Dedicatus546/cors-server)
 
 # TODO LIST
 
@@ -43,8 +46,4 @@
 3. `CCache`文章`Windows`部分的适配书写。
 
 4. `Linux`下`gcc`对`map`和`unordered_map`底层的红黑树和哈希表的实现部分细节的总结。
-
-5. 可以考虑优化一下`gitalk`的代理配置`proxy`，默认的国内访问会被墙。
-    - 参考`issue`：[https://github.com/gitalk/gitalk/issues/506](https://github.com/gitalk/gitalk/issues/506)
-    - 目前尝试参考项目解决：[https://github.com/kurisaW/cros-server](https://github.com/kurisaW/cros-server)
 

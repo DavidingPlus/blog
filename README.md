@@ -7,6 +7,8 @@
 
 目前已做好`Linux`和`Windows`平台的适配，建议在`Windows`或者`Wsl`中跑本项目。不推荐在虚拟机中跑，因为需要输入虚拟机的`IP`加端口号才能访问到本地页面。
 
+# 注意事项
+
 下面是一些细节注意事项：
 
 - 另一个分支`master`是用来部署网站站点的，因为`hexo deploy`里面的默认分支是`master`，所以就用`master`吧，另一个学长也是这么用的。
@@ -32,7 +34,7 @@
 - 对于本项目，在部署的时候不能使用`Github Actions`的静态页面部署，也就是对应`static.yml`的部署方式，我也不知道为什么。正确的做法是在`Github Pages`的`Build and deployment`的`source`中选择`Deploy from a branch`，也就是从一个分支部署。
 - 在`package.json`中存储了所有依赖包以及版本号，位于`dependencies`字段，例如`hexo`的`7.2.0`。为了防止包更新导致的`API`不兼容或者其他问题，这里使用固定的包版本。注意在写入的时候注意`7.2.0`和`^7.2.0`是有区别的。对于`^7.2.0`，如果有更新的包，比如`7.3.0`，会选择`7.3.0`的包，完整的规则我不是很清楚，反正包的版本不是固定的。`7.2.0`就是固定的这个版本的包。因此在`npm install <package> --save`以后，记得手动删除包版本前面的`^`符号，以保证使用固定的版本的包。目前决定使用`7.2.0`固定版本的`hexo`包。
 
-TODO LIST:
+# TODO LIST
 
 1. 研究`pjax`中部分加载的`loading-bar`的逻辑，`pjax.pug`可能有`bug`。进一步选择美化进度加载，现在是一个进度条。个人想弄一个全屏的加载动画，样式参考文章：[https://www.jianshu.com/p/808a647dc324](https://www.jianshu.com/p/808a647dc324)。
 
@@ -41,4 +43,8 @@ TODO LIST:
 3. `CCache`文章`Windows`部分的适配书写。
 
 4. `Linux`下`gcc`对`map`和`unordered_map`底层的红黑树和哈希表的实现部分细节的总结。
+
+5. 可以考虑优化一下`gitalk`的代理配置`proxy`，默认的国内访问会被墙。
+    - 参考`issue`：[https://github.com/gitalk/gitalk/issues/506](https://github.com/gitalk/gitalk/issues/506)
+    - 目前尝试参考项目解决：[https://github.com/kurisaW/cros-server](https://github.com/kurisaW/cros-server)
 

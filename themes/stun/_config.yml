@@ -501,7 +501,7 @@ gitalk:
   # Github username.
   owner: DavidingPlus
   # Github repository.
-  repo: gitalk
+  repo: blog-comments
   # Github Application Client ID.
   client_id: 275382d4e047906af49b
   # Github Application Client Secret.
@@ -509,7 +509,7 @@ gitalk:
   # GitHub repo owner and collaborators, only these guys can initialize github issues.
   admin: DavidingPlus
   # Facebook-like distraction free mode.
-  distraction_free_mode: true
+  distraction_free_mode: false
   # Gitalk's display language depends on user's browser or system environment.
   # If you want everyone visiting your site to see a uniform language, you can set a force language value.
   # Optional values: en | zh-CN | es-ES | fr | ru | zh-TW

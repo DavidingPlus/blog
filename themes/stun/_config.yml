@@ -497,17 +497,17 @@ stick_top:
 # Gittalk
 # See: https://github.com/gitalk/gitalk/
 gitalk:
-  enable: true
+  enable: false
   # Github username.
-  owner: DavidingPlus
+  owner:
   # Github repository.
-  repo: blog-comments
+  repo:
   # Github Application Client ID.
-  client_id: 275382d4e047906af49b
+  client_id:
   # Github Application Client Secret.
-  client_secret: b9f1b3c5bbb3f352d4ae3fabdb95c6927bc7ffbb
+  client_secret:
   # GitHub repo owner and collaborators, only these guys can initialize github issues.
-  admin: DavidingPlus
+  admin:
   # Facebook-like distraction free mode.
   distraction_free_mode: false
   # Gitalk's display language depends on user's browser or system environment.
@@ -593,11 +593,11 @@ disqus:
 # Utterances
 # See: https://utteranc.es/
 utterances:
-  enable: false
+  enable: true
   # Github username.
-  owner:
+  owner: DavidingPlus
   # Github repository.
-  repo:
+  repo: blog-comments
   # Choose the mapping between blog posts and GitHub issues.
   # Optional values: pathname | url | title | og:title
   mapping: title

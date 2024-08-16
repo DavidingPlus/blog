@@ -36,6 +36,7 @@
 - 已优化`gitalk`的代理配置`proxy`，目前默认的国内访问会被墙。
     - 起初阅读`issue`：[https://github.com/gitalk/gitalk/issues/506](https://github.com/gitalk/gitalk/issues/506)
     - 最后参考项目成功解决：[https://github.com/Dedicatus546/cors-server](https://github.com/Dedicatus546/cors-server)
+    - `2024.08.16`更新：评论系统已换为更轻量、更安全、访问更迅速的`utterances`，具体参考[https://utteranc.es/](https://utteranc.es/)
 
 # TODO LIST
 
@@ -46,4 +47,8 @@
 3. `CCache`文章`Windows`部分的适配书写。
 
 4. `Linux`下`gcc`对`map`和`unordered_map`底层的红黑树和哈希表的实现部分细节的总结。
+
+5. `teamspeak-server`安装、管理、重置、迁移等完整流程的文章。
+
+6. `gitalk`和`utterances`的博客评论系统的使用和对比的文章。
 

@@ -63,9 +63,7 @@
 
 3. Linux 下 gcc 对 map 和 unordered_map 底层的红黑树和哈希表的实现部分细节的总结。
 
-4. teamspeak-server 安装、管理、重置、迁移等完整流程的文章。
+4. gitalk 和 utterances 的博客评论系统的使用和对比的文章。
 
-5. gitalk 和 utterances 的博客评论系统的使用和对比的文章。
-
-6. 研究 utterances 评论系统的主题与本博客主题 hexo-stun 主题的适配，stun 主题切换，utterances 主题跟着切换，参考 issue：[https://github.com/utterance/utterances/issues/427](https://github.com/utterance/utterances/issues/427)
+5. 研究 utterances 评论系统的主题与本博客主题 hexo-stun 主题的适配，stun 主题切换，utterances 主题跟着切换，参考 issue：[https://github.com/utterance/utterances/issues/427](https://github.com/utterance/utterances/issues/427)
 

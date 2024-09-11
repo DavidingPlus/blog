@@ -6,7 +6,8 @@ on:
   push:
     branches:
       - master
-  workflow_dispatch:
+  # 之前使用 Trigger 做触发中转，这里需要允许触发器。现在一步到位，故注释
+  # workflow_dispatch:
 
 jobs:
   build:

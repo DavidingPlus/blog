@@ -23,7 +23,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4.0.0
         with:
-          node-version: "18.x"
+          node-version: "20.x"
 
       # 安装项目依赖
       - name: Install Dependencies
@@ -55,7 +55,7 @@ jobs:
           name: Blog
           path: dist
 
-      # 现在部署到我自己的服务器上了，因此 gh-pages 分支废弃，但是该分支需要存在，因为 hexo-seo-autopush
+      # 现在部署到我自己的服务器上了，因此 gh-pages 分支废弃，但是该分支需要存在，因为 hexo-seo-autopush 依赖这个分支下的 bing.json
       - name: Deploy to gh-pages-deprecated
         # 链接 https://github.com/crazy-max/ghaction-github-pages/
         uses: crazy-max/ghaction-github-pages@v4.0.0

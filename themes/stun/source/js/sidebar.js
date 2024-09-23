@@ -21,7 +21,7 @@ $(document).ready(function () {
   var isRemovedTocClass = false
 
   // Automatically expand items in the article directory
-  //   based on the scrolling of heading in the article.
+  // based on the scrolling of heading in the article.
   function autoSpreadToc() {
     var $postBody = $('.post-body, .custompage')
     var $allTocItem = $('.sidebar-toc li')

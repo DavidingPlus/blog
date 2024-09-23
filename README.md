@@ -54,6 +54,7 @@
 
    - 2024.08.16 更新：评论系统已换为更轻量、更安全、访问更迅速的 utterances，具体参考[https://utteranc.es/](https://utteranc.es/)
 
+10. 修复文章中锚点定位被顶部导航栏遮挡的问题。想了各种办法，包括但不限于监听 scroll、click 事件等，最终均以失败告终。后想到可从 Css 层面出发，修改样式表，详见：[https://blog.csdn.net/qq_31005257/article/details/105469113](https://blog.csdn.net/qq_31005257/article/details/105469113)。这里参考的是第二种 padding + margin 的做法，对应修改的文件于 themes/stun/source/css/_common/outline/macro.styl 的 123、124 行。
 
 # TODO LIST
 

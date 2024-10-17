@@ -15,7 +15,7 @@
         "avatar": "/images/friends/yangjx29.webp",
         "name": "yangjx29",
         "introduction": "如图所示 ←",
-        "url": "https://yangjx29.github.io/"
+        "url": "https://yangjx29.github.io/about/"
     },
     {
         "avatar": "/images/friends/gilbert-newton-lewis.webp",
@@ -51,7 +51,7 @@
         "avatar": "/images/friends/zhangmo.svg",
         "name": "丈墨",
         "introduction": "我本将心向明月，奈何明月照沟渠。",
-        "url": "https://zhang-mo-blog.vercel.app/zh/"
+        "url": "https://zhang-mo-blog.vercel.app/"
     },
     {
         "avatar": "/images/friends/gemini.webp",
@@ -69,6 +69,6 @@
         "avatar": "/images/friends/hao.webp",
         "name": "Hao",
         "introduction": "这是一个用来记录知识和生活的博客。",
-        "url": "http://blog.haoyuming.top"
+        "url": "http://blog.haoyuming.top/"
     }
 ]

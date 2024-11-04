@@ -13,7 +13,7 @@ comments: false
 
 相关技术栈：
 
-1. C/C++ 底层开发。参与开源项目 [LarkSDK](http://caiyi.tech/larksdk/)。
+1. C/C++ 底层开发。参与项目 [LarkSDK](http://caiyi.tech/larksdk/)：一款跨平台通用的 C++ 基础开发库。
 
 2. C++/Qt 应用开发。
 

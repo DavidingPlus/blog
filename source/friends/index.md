@@ -13,7 +13,7 @@ title: 友链
         "avatar": "https://blog.davidingplus.cn/assets/android-chrome-512x512.webp",
         "name": "DavidingPlus",
         "introduction": "Self-discipline is key in life.",
-        "url": "https://davidingplus.cn"
+        "url": "https://davidingplus.cn/"
     }
 ~~~
 

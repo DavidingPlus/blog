@@ -14,12 +14,14 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.davidingplus.cn/
-# permalink: :year/:month/:day/:title/
+
 # 设置永久链接
-permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink
+# see more: https://github.com/ohroy/hexo-abbrlink/
+# permalink: year/:month/:day/:title/
+permalink: posts/:abbrlink.html # 可以手动替换文章中的链接，也可以在构建的时候自动生成。
 abbrlink:
-    alg: crc32   #算法： crc16(default) and crc32
-    rep: hex     #进制： dec(default) and hex
+    alg: crc32   # 算法：crc16(default) and crc32
+    rep: hex     # 进制：dec(default) and hex
 
 permalink_defaults:
 pretty_urls:

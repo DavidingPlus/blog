@@ -17,11 +17,12 @@ url: https://blog.davidingplus.cn/
 
 # 设置永久链接
 # see more: https://github.com/ohroy/hexo-abbrlink/
-# permalink: year/:month/:day/:title/
+# 同时可通过在线网站生成（算法选择 CRC-32，查看计算结果 HEX）：https://www.lddgo.net/encrypt/crc/
 permalink: posts/:abbrlink.html # 可以手动替换文章中的链接，也可以在构建的时候自动生成。
+# permalink: year/:month/:day/:title/ # 原本的命名规则，按照时间命名
 abbrlink:
-    alg: crc32   # 算法：crc16(default) and crc32
-    rep: hex     # 进制：dec(default) and hex
+  alg: crc32   # 算法：crc16(default) or crc32
+  rep: hex     # 进制：dec(default) or hex
 
 permalink_defaults:
 pretty_urls:

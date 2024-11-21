@@ -44,7 +44,7 @@ jobs:
           path: public
 
   deploy-gh-pages:
-    name: Deploy to gh-pages
+    name: Deploy to gh-pages-deprecated
     runs-on: ubuntu-latest
     needs: build  # 表示依赖于 build 作业完成
     steps:

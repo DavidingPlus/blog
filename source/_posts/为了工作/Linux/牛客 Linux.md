@@ -1,8 +1,8 @@
 ---
-title: 牛客Linux
+title: 牛客 Linux
 categories:
-  - Linux学习
-abbrlink: 2adb5565
+  - Linux 学习
+abbrlink: ff333d31
 date: 2023-09-21 01:00:00
 updated: 2023-09-21 01:00:00
 ---

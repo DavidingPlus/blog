@@ -333,12 +333,12 @@ author:
 # If you can`t find a suitable icon, you can choose to display text by adding the `origin:` prefix.
 # e.g. `origin:sf`, so `sf` will be displayed.
 social:
-  csdn: https://blog.csdn.net/m0_61588837?spm=1000.2115.3001.5343 || origin:C
-  # gitee: https://gitee.com/DavidingPlus || origin:Gitee
   github: https://github.com/DavidingPlus || fab fa-github
   qq: /qq/ || fab fa-qq
   wechat: /wechat/ || fab fa-weixin
   E-Mail: mailto:davidingplus@qq.com || fas fa-envelope
+  # csdn: https://blog.csdn.net/m0_61588837?spm=1000.2115.3001.5343 || origin:C
+  # gitee: https://gitee.com/DavidingPlus || origin:Gitee
   # google: https://plus.google.com/ || fab fa-google
   # twitter: https://twitter.com/ || fab fa-twitter
   # youtube: https://youtube.com/ || fab fa-youtube

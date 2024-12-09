@@ -39,7 +39,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render: 
   # 由于 games 中的都是写好的 html 文件，因此不能再被编译，在这里声明
-  - 'games/*/*.html'
+  # - 'games/*/*.html'
 
 # Writing
 new_post_name: :title.md # File name of new posts

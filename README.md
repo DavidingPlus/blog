@@ -54,7 +54,9 @@
 
    - 2024.08.16 更新：评论系统已换为更轻量、更安全、访问更迅速的 utterances，具体参考[https://utteranc.es/](https://utteranc.es/)
 
-10. 修复文章中锚点定位被顶部导航栏遮挡的问题。想了各种办法，包括但不限于监听 scroll、click 事件等，最终均以失败告终。后想到可从 Css 层面出发，修改样式表，详见：[https://blog.csdn.net/qq_31005257/article/details/105469113](https://blog.csdn.net/qq_31005257/article/details/105469113)。这里参考的是第二种 padding + margin 的做法，对应修改的文件于 themes/stun/source/css/_common/outline/macro.styl 162 到 170 行，为了不影响其他页面（例如归档和分类） h 标签的布局，因此放在 post-body 类的内部进行匹配。 
+10. 修复文章中锚点定位被顶部导航栏遮挡的问题。想了各种办法，包括但不限于监听 scroll、click 事件等，最终均以失败告终。后想到可从 Css 层面出发，修改样式表，详见：[https://blog.csdn.net/qq_31005257/article/details/105469113](https://blog.csdn.net/qq_31005257/article/details/105469113)。这里参考的是第二种 padding + margin 的做法，对应修改的文件于 themes/stun/source/css/_common/outline/macro.styl 162 到 170 行，为了不影响其他页面（例如归档和分类） h 标签的布局，因此放在 post-body 类的内部进行匹配。
+
+11. 增加插件 hexo-browsersync，可以监听 markdown 文件，修改的时候实时同步到部署端。可方便调试。
 
 # TODO LIST
 
@@ -67,4 +69,6 @@
 4. gitalk 和 utterances 的博客评论系统的使用和对比的文章。
 
 5. 研究 utterances 评论系统的主题与本博客主题 hexo-stun 主题的适配，stun 主题切换，utterances 主题跟着切换，参考 issue：[https://github.com/utterance/utterances/issues/427](https://github.com/utterance/utterances/issues/427)
+
+6. hexo-browsersync 插件只能监听 markdown 文件，不能监听 config.yml 或者能改变页面样式等的文件。调研有没有类似 vue 框架的实时渲染的解决办法。
 

@@ -2,26 +2,65 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99999;
+  z-index: 999999;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
-  transition: opacity .4s linear;
-
-  &__progress {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: $loading-bar-bg-color;
-    box-shadow: 0 0 10px $loading-bar-shadow-color;
-  }
+  transition: opacity 0.4s linear;
+  pointer-events: none;
 
   &.loading {
     opacity: 1;
     transition: none;
+    pointer-events: auto;
   }
 
-  &.loading &__progress {
-    transition: width .4s ease;
+  &__progress {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #ff5a5a;
+    animation: spin 1s linear infinite;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top-color: #5af33f;
+      transform: rotate(120deg);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      right: 15px;
+      bottom: 15px;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top-color: #6dc9ff;
+      transform: rotate(240deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 }

@@ -53,11 +53,11 @@ script.
         });
       }
 
-      $('.loading-bar').addClass('loading');
+      $('.loading-animation').addClass('loading');
     }, false);
 
     window.addEventListener('pjax:complete', function () {
-      $('.loading-bar').removeClass('loading');
+      $('.loading-animation').removeClass('loading');
 
       $('link[rel=prefetch], script[data-pjax-rm]').each(function () {
         $(this).remove();

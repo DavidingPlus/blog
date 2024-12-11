@@ -56,19 +56,17 @@
 
 10. 修复文章中锚点定位被顶部导航栏遮挡的问题。想了各种办法，包括但不限于监听 scroll、click 事件等，最终均以失败告终。后想到可从 Css 层面出发，修改样式表，详见：[https://blog.csdn.net/qq_31005257/article/details/105469113](https://blog.csdn.net/qq_31005257/article/details/105469113)。这里参考的是第二种 padding + margin 的做法，对应修改的文件于 themes/stun/source/css/_common/outline/macro.styl 162 到 170 行，为了不影响其他页面（例如归档和分类） h 标签的布局，因此放在 post-body 类的内部进行匹配。
 
-11. 增加插件 hexo-browsersync，可以监听 markdown 文件，修改的时候实时同步到部署端。可方便调试。
+11. 增加插件 hexo-browsersync，可以监听源文件的改动，修改时实时同步到部署端。可方便调试。
+
+12. 修改 loading-bar 进度条为 loading-animation 过渡动画（与 pjax 配合使用）。样式参考文章：[https://www.jianshu.com/p/808a647dc324](https://www.jianshu.com/p/808a647dc324)
 
 # TODO LIST
 
-1. 研究 pjax 中部分加载的 loading-bar 的逻辑，pjax.pug 可能有 bug。进一步选择美化进度加载，现在是一个进度条。个人想弄一个全屏的加载动画，样式参考文章：[https://www.jianshu.com/p/808a647dc324](https://www.jianshu.com/p/808a647dc324)。
+1. pjax + reward 混合使用出了些问题，第一次没办法加载出收款码，需要手动刷新一次才行。调研原因并尝试修复。 
 
-2. pjax + reward 混合使用出了些问题，第一次没办法加载出收款码，需要手动刷新一次才行。调研原因并尝试修复。 
+2. Linux 下 gcc 对 map 和 unordered_map 底层的红黑树和哈希表的实现部分细节的总结。
 
-3. Linux 下 gcc 对 map 和 unordered_map 底层的红黑树和哈希表的实现部分细节的总结。
+3. gitalk 和 utterances 的博客评论系统的使用和对比的文章。
 
-4. gitalk 和 utterances 的博客评论系统的使用和对比的文章。
-
-5. 研究 utterances 评论系统的主题与本博客主题 hexo-stun 主题的适配，stun 主题切换，utterances 主题跟着切换，参考 issue：[https://github.com/utterance/utterances/issues/427](https://github.com/utterance/utterances/issues/427)
-
-6. hexo-browsersync 插件只能监听 markdown 文件，不能监听 config.yml 或者能改变页面样式等的文件。调研有没有类似 vue 框架的实时渲染的解决办法。
+4. 研究 utterances 评论系统的主题与本博客主题 hexo-stun 主题的适配，stun 主题切换，utterances 主题跟着切换，参考 issue：[https://github.com/utterance/utterances/issues/427](https://github.com/utterance/utterances/issues/427)
 

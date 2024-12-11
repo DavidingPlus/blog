@@ -4,8 +4,8 @@
   left: 0;
   z-index: $z-indexTop;
   pointer-events: none;
-  height: 100%;
   width: 100%;
+  height: 100%;
   background-color: rgba(250, 250, 250, 0.9);
   display: flex;
   justify-content: center;
@@ -15,15 +15,15 @@
 
   &__progress {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 150px !important;
+    height: 150px !important;
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: #ff5a5a;
     animation: spin 1s linear infinite;
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       top: 5px;
       left: 5px;
@@ -32,11 +32,11 @@
       border-radius: 50%;
       border: 3px solid transparent;
       border-top-color: #5af33f;
-      transform: rotate(120deg);
+      animation: spin 3s linear infinite;
     }
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       top: 15px;
       left: 15px;
@@ -45,7 +45,7 @@
       border-radius: 50%;
       border: 3px solid transparent;
       border-top-color: #6dc9ff;
-      transform: rotate(240deg);
+      animation: spin 2s linear infinite;
     }
   }
 

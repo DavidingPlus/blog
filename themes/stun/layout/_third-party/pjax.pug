@@ -41,8 +41,6 @@ if theme.pjax.enable
 script.
   window.addEventListener('DOMContentLoaded', function () {
     var pjax = new Pjax(!{ pjaxArgs });
-    // 加载进度条的计时器
-    var loadingTimer = null;
 
     // 重置页面 Y 方向上的滚动偏移量
     document.addEventListener('pjax:send', function () {
@@ -55,28 +53,12 @@ script.
         });
       }
 
-      var loadingBarWidth = 20;
-      var MAX_LOADING_WIDTH = 95;
-
-      $('.loading-bar').addClass('loading');
-      $('.loading-bar__progress').css('width', loadingBarWidth + '%');
-      clearInterval(loadingTimer);
-      loadingTimer = setInterval(function () {
-        loadingBarWidth += 3;
-        if (loadingBarWidth > MAX_LOADING_WIDTH) {
-          loadingBarWidth = MAX_LOADING_WIDTH;
-        }
-        $('.loading-bar__progress').css('width', loadingBarWidth + '%');
-      }, 500);
+      $('.loading-animation').addClass('loading');
     }, false);
 
     window.addEventListener('pjax:complete', function () {
-      clearInterval(loadingTimer);
-      $('.loading-bar__progress').css('width', '100%');
-      $('.loading-bar').removeClass('loading');
-      setTimeout(function () {
-        $('.loading-bar__progress').css('width', '0');
-      }, 400);
+      $('.loading-animation').removeClass('loading');
+
       $('link[rel=prefetch], script[data-pjax-rm]').each(function () {
         $(this).remove();
       });

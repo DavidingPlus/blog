@@ -72,7 +72,10 @@ script.
 
     window.addEventListener('pjax:complete', function () {
       clearInterval(loadingTimer);
-      $('.loading-bar__progress').css('width', '100%');
+
+      //- 之前是 loading-bar，加载完成后设置为 100%，很合理。但现在是 loading-box，加载完成后无需拉伸到全屏，否则会很突兀。
+      //- $('.loading-bar__progress').css('width', '100%');
+
       $('.loading-bar').removeClass('loading');
       setTimeout(function () {
         $('.loading-bar__progress').css('width', '0');

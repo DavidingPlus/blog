@@ -78,6 +78,17 @@ $(document).ready(function () {
       return nightMode
     }
 
+    function updateUtterancesTheme() {
+      var iframe = document.querySelector('iframe.utterances-frame')
+      if (iframe) {
+        var message = {
+          type: 'set-theme',
+          theme: isNightMode ? 'photon-dark' : 'github-light'
+        }
+        iframe.contentWindow.postMessage(message, 'https://utteranc.es')
+      }
+    }
+
     if (CONFIG.nightMode && CONFIG.nightMode.enable) {
       var isNightMode = false
       var NIGHT_MODE_COOKIES_KEY = 'night_mode'
@@ -100,6 +111,8 @@ $(document).ready(function () {
         $nightMode.toggleClass('mode--checked')
         $nightMode.addClass('mode--focus')
         $('html').toggleClass('nightmode')
+
+        updateUtterancesTheme()
       })
     }
 
@@ -210,9 +223,3 @@ $(document).ready(function () {
   Stun.utils.pjaxReloadHeader()
   Stun.utils.pjaxReloadScrollIcon()
 })
-
-// 在 PJAX 完成时重新绑定事件和执行初始化
-window.addEventListener('pjax:complete', function () {
-  // Stun.utils.pjaxReloadHeader();
-  Stun.utils.pjaxReloadScrollIcon();
-});

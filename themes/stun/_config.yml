@@ -604,7 +604,8 @@ utterances:
   label: utterances
   # Choose an Utterances theme that matches your blog.
   # Optional values: github-light | github-dark | github-dark-orange | icy-dark | dark-blue | photon-dark
-  theme: github-light
+  theme_light: github-light
+  theme_dark: photon-dark
   # ! -------------------------------------------------------------------------------
   # ! Don't set this unless the URL of the script in the official website is changed.
   # ! -------------------------------------------------------------------------------

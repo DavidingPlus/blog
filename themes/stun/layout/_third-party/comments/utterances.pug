@@ -3,6 +3,8 @@ script&attributes(dataPjax).
     var d = document, s = d.createElement('script');
     var container = d.getElementById('utterances-container');
 
+    var theme = Stun.utils.getNightMode() === true ? '!{ CONFIG.utterancesThemeDark }' : '!{ CONFIG.utterancesThemeLight }';
+
     if (!container) {
       return;
     }
@@ -10,7 +12,7 @@ script&attributes(dataPjax).
     s.setAttribute('repo', '!{ theme.utterances.owner }/!{ theme.utterances.repo }');
     s.setAttribute('issue-term', '!{ theme.utterances.mapping }');
     s.setAttribute('label', '!{ theme.utterances.label }');
-    s.setAttribute('theme', '!{ theme.utterances.theme }');
+    s.setAttribute('theme', theme);
     s.setAttribute('crossorigin', 'anonymous');
     s.setAttribute('async', '');
     if (!{ pjax }) {

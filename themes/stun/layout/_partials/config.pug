@@ -161,6 +161,20 @@
     images: theme.images
   });
 
+  var utterancesThemeLight = 'undefined';
+  if (theme.utterances.theme_light) {
+    utterancesThemeLight = theme.utterances.theme_light;
+  } else {
+    utterancesThemeLight = 'github-light';
+  }
+
+  var utterancesThemeDark = 'undefined';
+  if (theme.utterances.theme_dark) {
+    utterancesThemeDark = theme.utterances.theme_dark;
+  } else {
+    utterancesThemeDark = 'github-dark';
+  }
+
 script.
   var Stun = window.Stun || {};
   var CONFIG = {
@@ -185,6 +199,8 @@ script.
     shortcuts: !{ shortcuts },
     prompt: !{ prompt },
     sourcePath: !{ sourcePath },
+    utterancesThemeLight: !{ utterancesThemeLight },
+    utterancesThemeDark: !{ utterancesThemeDark },
   };
 
   window.CONFIG = CONFIG;

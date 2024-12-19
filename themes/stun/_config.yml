@@ -404,8 +404,7 @@ heading_line: true
 
 # Reward QR Code
 reward:
-  # TODO 收款码在打开 pjax 之后没有办法一次性加载出来，只能手动刷新一次页面才能请求到，所以目前用不了。
-  enable: false
+  enable: true
   # Your QR code for collecting money.
   alipay: /images/reward/alipay.webp
   wechat: /images/reward/wechat-pay.webp

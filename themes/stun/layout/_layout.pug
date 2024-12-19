@@ -1,11 +1,8 @@
 -
   var HEXO_URL = 'http://hexo.io/';
   var STUN_URL = 'https://github.com/liuyib/hexo-theme-stun/';
-  var isNoHeader = !theme.header.enable || (is_post() && !theme.header.show_on.post)
 
-  //- 这里可以仿照is_post()做一些其他页面的适配，这里做了home页面的
-  //- var isNoHeader = !theme.header.enable || (is_post() && !theme.header.show_on.post) || ( is_home() && !theme.header.show_on.home )
-
+  var isNoHeader = !theme.header.enable || (is_post() && !theme.header.show_on.post);
   var isEnableNoHeader = !theme.header.enable || !theme.header.show_on.post;
   var isShowReward = typeof page.reward === 'boolean' ? page.reward === true : (theme.reward.enable && is_post());
   var isShowCC = typeof page.copyright === 'boolean' ? page.copyright === true : (theme.creative_commons.enable && is_post());

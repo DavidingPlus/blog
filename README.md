@@ -60,13 +60,13 @@
 
 12. 修改 loading-bar 进度条为 loading-animation 过渡动画（与 pjax 配合使用）。样式参考文章：[https://www.jianshu.com/p/808a647dc324](https://www.jianshu.com/p/808a647dc324)
 
+13. pjax + reward 的加载问题已解决。问题出在 themes\stun\layout\_partials\config.pug 的 CONFIG.reward 中，不应是 isShowReward 而是 theme.reward.enable。CONFIG 配置不会动态更新，isShowReward 的语义为是否显示收款码，这样第一次加载页面时只有启用收款码并且为 post 页面是 true。所以加载非 post 页面如 home 页面时，通过 pjax 刷新进入 post 页面点击收款码按钮无反应。但按照语义来讲，是否显示和是否启动是不同的，修改过后就正常了。
+
 # TODO LIST
 
-1. pjax + reward 混合使用出了些问题，第一次没办法加载出收款码，需要手动刷新一次才行。调研原因并尝试修复。 
+1. Linux 下 gcc 对 map 和 unordered_map 底层的红黑树和哈希表的实现部分细节的总结。
 
-2. Linux 下 gcc 对 map 和 unordered_map 底层的红黑树和哈希表的实现部分细节的总结。
+2. gitalk 和 utterances 的博客评论系统的使用和对比的文章。
 
-3. gitalk 和 utterances 的博客评论系统的使用和对比的文章。
-
-4. 研究 utterances 评论系统的主题与本博客主题 hexo-stun 主题的适配，stun 主题切换，utterances 主题跟着切换，参考 issue：[https://github.com/utterance/utterances/issues/427](https://github.com/utterance/utterances/issues/427)
+3. 研究 utterances 评论系统的主题与本博客主题 hexo-stun 主题的适配，stun 主题切换，utterances 主题跟着切换，参考 issue：[https://github.com/utterance/utterances/issues/427](https://github.com/utterance/utterances/issues/427)
 

@@ -54,7 +54,6 @@ menu:
   archives: /archives/ || fas fa-folder-open
   categories: /categories/ || fas fa-layer-group
   others: javascript:; || fas fa-bars
-  reward: /reward/ || fas fa-wallet
   about: /about/ || fas fa-user
   homepage: https://davidingplus.cn/ || fas fa-pager
   # tags: /tags/ || fas fa-tags

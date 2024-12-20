@@ -207,6 +207,18 @@ Stun.utils = Stun.$u = {
     }
     return init(function () { })
   },
+  getNightMode: function () {
+    var nightMode = false
+    var NIGHT_MODE_COOKIES_KEY = 'night_mode'
+    try {
+      if (parseInt(Stun.utils.Cookies().get(NIGHT_MODE_COOKIES_KEY))) {
+        nightMode = true
+      }
+    } catch (err) {
+      /* empty */
+    }
+    return nightMode
+  },
   showThemeInConsole: function () {
     var stunInfo = '主题不错？⭐star 支持一下 ->'
     var stunURL = 'https://github.com/liuyib/hexo-theme-stun'

@@ -56,19 +56,6 @@ $(document).ready(function () {
     }
   })
 
-  Stun.utils.getNightMode = function () {
-    var nightMode = false
-    var NIGHT_MODE_COOKIES_KEY = 'night_mode'
-    try {
-      if (parseInt(Stun.utils.Cookies().get(NIGHT_MODE_COOKIES_KEY))) {
-        nightMode = true
-      }
-    } catch (err) {
-      /* empty */
-    }
-    return nightMode
-  }
-
   Stun.utils.pjaxReloadHeader = function () {
     $menuBtn = $('.header-nav-menubtn')
     $menu = $('.header-nav-menu')
@@ -223,7 +210,6 @@ $(document).ready(function () {
   }
 
   // Initializaiton
-  Stun.utils.getNightMode()
   Stun.utils.pjaxReloadHeader()
   Stun.utils.pjaxReloadScrollIcon()
 })

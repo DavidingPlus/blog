@@ -5,7 +5,7 @@ script&attributes(dataPjax).
 
     var themeLight = '!{ theme.utterances.theme_light }' || 'github-light';
     var themeDark = '!{ theme.utterances.theme_dark }' || 'github-dark';
-    var themeFinal = themeLight;
+    var themeFinal = Stun.utils.getNightMode() ? themeDark : themeLight;
 
     if (!container) {
       return;

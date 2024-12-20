@@ -62,11 +62,11 @@
 
 13. pjax + reward 的加载问题已解决。问题出在 themes\stun\layout\_partials\config.pug 的 CONFIG.reward 中，不应是 isShowReward 而是 theme.reward.enable。CONFIG 配置不会动态更新，isShowReward 的语义为是否显示收款码，这样第一次加载页面时只有启用收款码并且为 post 页面是 true。所以加载非 post 页面如 home 页面时，通过 pjax 刷新进入 post 页面点击收款码按钮无反应。但按照语义来讲，是否显示和是否启动是不同的，修改过后就正常了。
 
+14. utterances 评论系统的主题与本博客主题 hexo-stun 主题的适配已完成。stun 主题切换，utterances 主题跟着切换。config.yml 中修改主题字段 theme 为 theme_light 和 theme_dark。并且在首次加载页面的时候会读取 Cookie 判断是亮色还是暗色主题，来初始化相应的 utterances 评论主题。
+
 # TODO LIST
 
 1. Linux 下 gcc 对 map 和 unordered_map 底层的红黑树和哈希表的实现部分细节的总结。
 
 2. gitalk 和 utterances 的博客评论系统的使用和对比的文章。
-
-3. 研究 utterances 评论系统的主题与本博客主题 hexo-stun 主题的适配，stun 主题切换，utterances 主题跟着切换，参考 issue：[https://github.com/utterance/utterances/issues/427](https://github.com/utterance/utterances/issues/427)
 

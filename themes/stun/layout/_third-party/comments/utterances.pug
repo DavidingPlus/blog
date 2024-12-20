@@ -3,6 +3,10 @@ script&attributes(dataPjax).
     var d = document, s = d.createElement('script');
     var container = d.getElementById('utterances-container');
 
+    var themeLight = '!{ theme.utterances.theme_light }' || 'github-light';
+    var themeDark = '!{ theme.utterances.theme_dark }' || 'github-dark';
+    var themeFinal = Stun.utils.getNightMode() ? themeDark : themeLight;
+
     if (!container) {
       return;
     }
@@ -10,7 +14,7 @@ script&attributes(dataPjax).
     s.setAttribute('repo', '!{ theme.utterances.owner }/!{ theme.utterances.repo }');
     s.setAttribute('issue-term', '!{ theme.utterances.mapping }');
     s.setAttribute('label', '!{ theme.utterances.label }');
-    s.setAttribute('theme', '!{ theme.utterances.theme }');
+    s.setAttribute('theme', themeFinal);
     s.setAttribute('crossorigin', 'anonymous');
     s.setAttribute('async', '');
     if (!{ pjax }) {

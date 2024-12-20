@@ -161,6 +161,17 @@
     images: theme.images
   });
 
+  var utterancesTheme = 'undefined';
+  if (theme.utterances.enable) {
+    var light = theme.utterances.theme_light || 'github-light';
+    var dark = theme.utterances.theme_dark || 'github-dark';
+
+    utterancesTheme = JSON.stringify({
+      light: light,
+      dark: dark
+    });
+  }
+
 script.
   var Stun = window.Stun || {};
   var CONFIG = {
@@ -185,6 +196,7 @@ script.
     shortcuts: !{ shortcuts },
     prompt: !{ prompt },
     sourcePath: !{ sourcePath },
+    utterancesTheme: !{ utterancesTheme },
   };
 
   window.CONFIG = CONFIG;

@@ -66,24 +66,12 @@ $(document).ready(function () {
     isMenuShow = false
     isSubmenuShow = false
 
-    function getNightMode() {
-      var nightMode = false
-      try {
-        if (parseInt(Stun.utils.Cookies().get(NIGHT_MODE_COOKIES_KEY))) {
-          nightMode = true
-        }
-      } catch (err) {
-        /* empty */
-      }
-      return nightMode
-    }
-
     function updateUtterancesTheme() {
       var iframe = document.querySelector('iframe.utterances-frame')
       if (iframe) {
         var message = {
           type: 'set-theme',
-          theme: isNightMode ? 'photon-dark' : 'github-light'
+          theme: isNightMode ? CONFIG.utterancesTheme.dark : CONFIG.utterancesTheme.light
         }
         iframe.contentWindow.postMessage(message, 'https://utteranc.es')
       }
@@ -95,7 +83,7 @@ $(document).ready(function () {
       $nightMode = $('.mode')
       isNightModeFocus = true
 
-      if (getNightMode()) {
+      if (Stun.utils.getNightMode()) {
         $nightMode.addClass('mode--checked')
         $nightMode.addClass('mode--focus')
         $('html').addClass('nightmode')
@@ -112,7 +100,9 @@ $(document).ready(function () {
         $nightMode.addClass('mode--focus')
         $('html').toggleClass('nightmode')
 
-        updateUtterancesTheme()
+        if (CONFIG.utterancesTheme) {
+          updateUtterancesTheme()
+        }
       })
     }
 

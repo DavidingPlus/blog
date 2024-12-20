@@ -84,7 +84,7 @@ $(document).ready(function () {
       if (iframe) {
         var message = {
           type: 'set-theme',
-          theme: isNightMode ? CONFIG.utterancesThemeDark : CONFIG.utterancesThemeLight
+          theme: isNightMode ? CONFIG.utterancesTheme.dark : CONFIG.utterancesTheme.light
         }
         iframe.contentWindow.postMessage(message, 'https://utteranc.es')
       }
@@ -113,7 +113,9 @@ $(document).ready(function () {
         $nightMode.addClass('mode--focus')
         $('html').toggleClass('nightmode')
 
-        updateUtterancesTheme()
+        if (CONFIG.utterancesTheme) {
+          updateUtterancesTheme()
+        }
       })
     }
 
@@ -221,6 +223,7 @@ $(document).ready(function () {
   }
 
   // Initializaiton
+  Stun.utils.getNightMode()
   Stun.utils.pjaxReloadHeader()
   Stun.utils.pjaxReloadScrollIcon()
 })

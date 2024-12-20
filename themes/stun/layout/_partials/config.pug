@@ -161,18 +161,15 @@
     images: theme.images
   });
 
-  var utterancesThemeLight = 'undefined';
-  if (theme.utterances.theme_light) {
-    utterancesThemeLight = theme.utterances.theme_light;
-  } else {
-    utterancesThemeLight = 'github-light';
-  }
+  var utterancesTheme = 'undefined';
+  if (theme.utterances.enable) {
+    var light = theme.utterances.theme_light || 'github-light';
+    var dark = theme.utterances.theme_dark || 'github-dark';
 
-  var utterancesThemeDark = 'undefined';
-  if (theme.utterances.theme_dark) {
-    utterancesThemeDark = theme.utterances.theme_dark;
-  } else {
-    utterancesThemeDark = 'github-dark';
+    utterancesTheme = JSON.stringify({
+      light: light,
+      dark: dark
+    });
   }
 
 script.
@@ -199,8 +196,7 @@ script.
     shortcuts: !{ shortcuts },
     prompt: !{ prompt },
     sourcePath: !{ sourcePath },
-    utterancesThemeLight: !{ utterancesThemeLight },
-    utterancesThemeDark: !{ utterancesThemeDark },
+    utterancesTheme: !{ utterancesTheme },
   };
 
   window.CONFIG = CONFIG;

@@ -16,6 +16,10 @@ menu:
   categories: Categories
   tags: Tags
   about: About
+  friends: Friends
+  others: Others
+  homepage: Homepage
+  algo: Algo
 
 # Archives page, Categories page, Tags page
 page:
@@ -46,6 +50,7 @@ social:
   wechat: Wechat
   telegram: Telegram
   qq: QQ
+  email: davidingplus@qq.com
 
 # Article
 post:

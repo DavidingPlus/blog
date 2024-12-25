@@ -75,7 +75,7 @@ index_generator:
   per_page: 5
   order_by: -date
 
-# #archive分页每页显示文章数
+# archive 分页每页显示文章数
 # archive_generator:
 #   per_page: 0
 
@@ -125,7 +125,7 @@ search:
   field: post
   content: true
 
-#Live2D动画
+# Live 2D 动画
 live2d:
   enable: true
   scriptFrom: local
@@ -168,7 +168,7 @@ hexo_seo_autopush:
 
 # Deployment
 # 对应 npx hexo deploy 命令，目前已不再使用。
-## Docs: https://hexo.io/docs/one-command-deployment
+# Docs: https://hexo.io/docs/one-command-deployment
 # deploy:
 # - type: git
 #   repo: git@github.com:DavidingPlus/blog.git

@@ -70,3 +70,5 @@
 
 2. gitalk 和 utterances 的博客评论系统的使用和对比的文章。
 
+3. 让本主题 Hexo + Stun 支持中英文切换。
+

@@ -1,9 +1,9 @@
 ---
-title: 微信
+title: WeChat
 comments: false
 ---
 
-# <center>微信</center>
+# <center>WeChat</center>
 
 - [回到首页 ←](/)
 - [所有文章 ←](/archives/)

@@ -1,8 +1,8 @@
 ---
-title: 友链
+title: Friends
 ---
 
-# <center>友链</center>
+# <center>Friends</center>
 
 **朋友们的博客链接!!!**
 

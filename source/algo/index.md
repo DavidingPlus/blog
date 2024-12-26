@@ -1,10 +1,10 @@
 ---
-title: 算法
+title: Algo
 comments: false
 toc: false # 在这一页不启用目录功能
 ---
 
-# <center>算法</center>
+# <center>Algo</center>
 
 目前暂时没有时间和精力梳理算法的相关文章，因此这部分就放一些比较优质的算法学习网站和仓库吧。
 

@@ -1,11 +1,11 @@
 ---
-title: 关于
+title: About
 comments: false
 ---
 
 <meta name="referrer" content="no-referrer"/>
 
-# <center>关于</center>
+# <center>About</center>
 
 这里是 DavidingPlus 的博客，用来记录学习过程中的感悟和收获。我的各个社交链接已经放在左边了，可以添加互相交流学习。
 

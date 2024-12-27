@@ -17,7 +17,7 @@ comments: false
 
 2. C++/Qt 应用开发。
 
-2. Linux 应用层开发。
+2. Linux 用户层开发。
 
 3. Linux 内核开发。正在学习中。。。
 

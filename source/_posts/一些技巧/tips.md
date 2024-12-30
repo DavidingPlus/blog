@@ -120,7 +120,7 @@ updated: 2024-12-11 12:15:00
 
   - [https://www.yaolong.net/article/pip-externally-managed-environment](https://www.yaolong.net/article/pip-externally-managed-environment)
 
-- Linux 用户层编程可以开发的一些项目：https://blog.csdn.net/sinat_16643223/article/details/105761275
+- Linux应用层编程可以开发的一些项目：https://blog.csdn.net/sinat_16643223/article/details/105761275
 
 - typora实现页内链接：https://blog.csdn.net/Manchester__united/article/details/113257595
 

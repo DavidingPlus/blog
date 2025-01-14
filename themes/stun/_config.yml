@@ -244,7 +244,7 @@ footer:
   beian:
     enable: true
     # 备案 XXXXXXXX 号
-    icp: 蜀ICP备2024088070号
+    icp: 蜀 ICP 备 2024088070 号
   # Any custom text (e.g. Hosted by <a href="https://pages.github.com/" rel="noopener" target="_blank">Github Pages</a>)
   custom:
     enable: false

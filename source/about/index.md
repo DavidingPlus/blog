@@ -21,5 +21,5 @@ comments: false
 
 3. Linux 内核开发。正在学习中。。。
 
-<img src="https://img-blog.csdnimg.cn/1867f61e47c447b681b9e4f1f92d105c.png" style="zoom: 80%;" />
+<img src="https://img.davidingplus.cn/LBJ_laugh.webp" style="zoom: 80%;" />
 

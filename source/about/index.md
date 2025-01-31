@@ -17,9 +17,9 @@ comments: false
 
 2. C++/Qt 应用开发。
 
-2. Linux 用户层开发。
+3. Linux 用户层开发。
 
-3. Linux 内核开发。正在学习中。。。
+4. Linux 内核开发。正在学习中。。。
 
-<img src="https://img.davidingplus.cn/LBJ_laugh.webp" style="zoom: 80%;" />
+<img src="https://image.davidingplus.cn/images/2025/01/LBJ_laugh.webp" alt="LBJ_laugh" style="zoom:80%;" />
 

@@ -21,5 +21,5 @@ comments: false
 
 4. Linux 内核开发。正在学习中。。。
 
-<img src="https://image.davidingplus.cn/images/2025/01/LBJ_laugh.webp" alt="LBJ_laugh" style="zoom:80%;" />
+<img src="https://image.davidingplus.cn/images/2025/01/31/LBJ_laugh.webp" alt="LBJ_laugh" style="zoom:80%;" />
 

@@ -76,13 +76,11 @@ if theme.canonical
 if theme.feed.rss
   link(rel="alternate" href=url_for(theme.feed.rss) type="application/atom+xml")
 
-//- TODO
-//- 已经将所有 cdn 替换为本地资源，因此提前解析和缓存此域名的操作可以去掉
+//- 已将所有 cdn 资源替换为本地资源，因此提前解析和缓存此域名的操作可以去掉。
 //- link(rel="dns-prefetch" href="https://cdn.jsdelivr.net")
 
-//- 提前解析和缓存 csdn 图片资源的域名，为了优化用户体验
-//- 后续如果 csdn 图片资源的子级域名发生变化，同样加在这里即可（已有的图片应该不会没有）
-link(rel="dns-prefetch" href="https://img-blog.csdnimg.cn")
+//- 优化 Cloudflare R2 OS 存储桶图床的域名。
+link(rel="dns-prefetch" href="https://image.davidingplus.cn")
 
 - var fontawesome_css = 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css';
 - if (theme.cdn.fontawesome) fontawesome_css = theme.cdn.fontawesome;

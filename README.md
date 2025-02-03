@@ -72,3 +72,7 @@
 
 3. 让本主题 Hexo + Stun 支持中英文切换。
 
+4. 博客图床的对比以及 Cloudflare R2 对象存储的使用步骤的文章。
+
+5. 解决 LarkSDK 依赖 Conan 包下载慢的问题的文章，详见 [https://github.com/DavidingPlus/larksdk-dep-cairo/issues/1](https://github.com/DavidingPlus/larksdk-dep-cairo/issues/1)。
+

@@ -78,7 +78,7 @@ jobs:
 
       - name: Deploy to My Own Server
         # 链接 https://github.com/easingthemes/ssh-deploy
-        uses: easingthemes/ssh-deploy@v5
+        uses: easingthemes/ssh-deploy@v5.0.0
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           ARGS: "-avzr --times --update --delete"

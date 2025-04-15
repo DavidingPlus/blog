@@ -76,6 +76,8 @@
 
 5. 解决 LarkSDK 依赖 Conan 包下载慢的问题的文章，详见 [https://github.com/DavidingPlus/larksdk-dep-cairo/issues/1](https://github.com/DavidingPlus/larksdk-dep-cairo/issues/1)。
 
+6. Linux 编译内核，同时解决根文件系统 / 和 /boot 分区空间不足的问题。其中根文件系统 / 手动扩充，/boot 分区专门新开一个虚拟硬盘建立分区存储。后续安装新内核后如何删除老内核以及如何修改 bios 通过新硬盘启动 grub 引导菜单。这部分的内容总结成一篇文章。
+
 6. 搭建 Frp + STcp + Windows 远程桌面连接的流程的文章，参考 [https://www.cnblogs.com/drcode/p/18455476/panel-frps-reverse-proxy-https](https://www.cnblogs.com/drcode/p/18455476/panel-frps-reverse-proxy-https) 和 [https://www.bilibili.com/video/BV1hZtme2Esu/](https://www.bilibili.com/video/BV1hZtme2Esu/)。
 
 7. 使用 1Panel 自动续签 Https 证书的文章，参考 [https://hin.cool/posts/sslfor1panel.html](https://hin.cool/posts/sslfor1panel.html)。

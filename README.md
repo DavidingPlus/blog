@@ -76,3 +76,7 @@
 
 5. 解决 LarkSDK 依赖 Conan 包下载慢的问题的文章，详见 [https://github.com/DavidingPlus/larksdk-dep-cairo/issues/1](https://github.com/DavidingPlus/larksdk-dep-cairo/issues/1)。
 
+6. 搭建 Frp + STcp + Windows 远程桌面连接的流程的文章，参考 [https://www.cnblogs.com/drcode/p/18455476/panel-frps-reverse-proxy-https](https://www.cnblogs.com/drcode/p/18455476/panel-frps-reverse-proxy-https) 和 [https://www.bilibili.com/video/BV1hZtme2Esu/](https://www.bilibili.com/video/BV1hZtme2Esu/)。
+
+7. 使用 1Panel 自动续签 Https 证书的文章，参考 [https://hin.cool/posts/sslfor1panel.html](https://hin.cool/posts/sslfor1panel.html)。
+

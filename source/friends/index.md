@@ -1,8 +1,10 @@
 ---
-title: Friends
+title: 友链
 ---
 
-# <center>Friends</center>
+<meta name="referrer" content="no-referrer"/>
+
+# <center>友链</center>
 
 **朋友们的博客链接!!!**
 

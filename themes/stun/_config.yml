@@ -64,7 +64,6 @@ menu:
 submenu:
   others:
     friends: /friends/ || fas fa-users
-    algo: /algo/ || fas fa-laptop
 
   # Add item of secondary menu in here.
   # xxx1:

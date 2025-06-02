@@ -76,7 +76,7 @@ if theme.mermaid.enable == true
   -   if (version) {
   -     mermaid_js += '@' + version
   -   }
-  -   mermaid_js += '/dist/mermaid.min.js?v=' + theme.version
+  -   mermaid_js += '/dist/mermaid.min.js?v=' + stun_env('version')
   - }
 
   script(type='text/javascript', id='maid-script', mermaidoptioins=theme.mermaid.options, src=mermaid_js)

@@ -58,11 +58,13 @@
 
 11. 增加插件 hexo-browsersync，可以监听源文件的改动，修改时实时同步到部署端。可方便调试。
 
-12. 修改 loading-bar 进度条为 loading-animation 过渡动画（与 pjax 配合使用）。样式参考文章：[https://www.jianshu.com/p/808a647dc324](https://www.jianshu.com/p/808a647dc324)
+12. 修改 loading-bar 进度条为 loading-animation 过渡动画（与 pjax 配合使用）。参考 PR：[https://github.com/DavidingPlus/blog/pull/2](https://github.com/DavidingPlus/blog/pull/2)。
 
 13. pjax + reward 的加载问题已解决。问题出在 themes\stun\layout\_partials\config.pug 的 CONFIG.reward 中，不应是 isShowReward 而是 theme.reward.enable。CONFIG 配置不会动态更新，isShowReward 的语义为是否显示收款码，这样第一次加载页面时只有启用收款码并且为 post 页面是 true。所以加载非 post 页面如 home 页面时，通过 pjax 刷新进入 post 页面点击收款码按钮无反应。但按照语义来讲，是否显示和是否启动是不同的，修改过后就正常了。
 
 14. utterances 评论系统的主题与本博客主题 hexo-stun 主题的适配已完成。stun 主题切换，utterances 主题跟着切换。config.yml 中修改主题字段 theme 为 theme_light 和 theme_dark。并且在首次加载页面的时候会读取 Cookie 判断是亮色还是暗色主题，来初始化相应的 utterances 评论主题。
+
+15. 给博客添加了流程图 mermaid 渲染支持。参考 PR：[https://github.com/DavidingPlus/blog/pull/4](https://github.com/DavidingPlus/blog/pull/4)。
 
 # TODO LIST
 
@@ -81,6 +83,4 @@
 7. 搭建 Frp + STcp + Windows 远程桌面连接的流程的文章，参考 [https://www.cnblogs.com/drcode/p/18455476/panel-frps-reverse-proxy-https](https://www.cnblogs.com/drcode/p/18455476/panel-frps-reverse-proxy-https) 和 [https://www.bilibili.com/video/BV1hZtme2Esu/](https://www.bilibili.com/video/BV1hZtme2Esu/)。
 
 8. 使用 1Panel 自动续签 Https 证书的文章，参考 [https://hin.cool/posts/sslfor1panel.html](https://hin.cool/posts/sslfor1panel.html)。
-
-9. 给博客添加流程图 mermaid 渲染支持。
 

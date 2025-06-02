@@ -65,3 +65,23 @@ div
 
 if footer.custom.enable
   div!= footer.custom.text
+
+if theme.mermaid.enable == true
+  - var mermaid_js = ''
+  - if (theme.mermaid.cdn) {
+  -   mermaid_js = theme.mermaid.cdn
+  - } else {
+  -   var version = theme.mermaid.version
+  -   mermaid_js = 'https://unpkg.com/mermaid'
+  -   if (version) {
+  -     mermaid_js += '@' + version
+  -   }
+  -   mermaid_js += '/dist/mermaid.min.js?v=' + stun_env('version')
+  - }
+
+  script(type='text/javascript', id='maid-script', mermaidoptioins=theme.mermaid.options, src=mermaid_js)
+  script.
+    if (window.mermaid) {
+      var options = JSON.parse(document.getElementById('maid-script').getAttribute('mermaidoptioins'));
+      mermaid.initialize(options);
+    }

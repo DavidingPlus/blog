@@ -86,5 +86,12 @@ script.
           Stun.utils.pjaxReloadLocalSearch();
         }
       }
+
+      // 加上 Mermaid 渲染逻辑
+      if (typeof mermaid !== 'undefined') {
+        const nodes = Array.from(document.querySelectorAll(".mermaid"))
+          .filter(el => !el.dataset.processed);
+        mermaid.init(undefined, nodes);
+      }
     }, false);
   }, false);

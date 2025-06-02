@@ -82,3 +82,5 @@
 
 8. 使用 1Panel 自动续签 Https 证书的文章，参考 [https://hin.cool/posts/sslfor1panel.html](https://hin.cool/posts/sslfor1panel.html)。
 
+9. 给博客添加流程图 mermaid 渲染支持。
+

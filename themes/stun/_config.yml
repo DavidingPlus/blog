@@ -1068,3 +1068,12 @@ title_trick:
   enable: true
   leave: "🤡快回来,粗大事了~~"
   enter: "😚欢迎回来!~"
+
+# mermaid chart
+mermaid: ## mermaid url https://github.com/knsv/mermaid
+  enable: true
+  cdn: /third-party/js/mermaid.min.js
+  version: # 若 cdn 给出链接则该项无效。否则，留空则是最新版本，也可指定版本例如 "11.6.0"
+  options: # find more api options from https://github.com/mermaid-js/mermaid/blob/master/packages/mermaid/src/mermaidAPI.ts
+    # startOnload: false
+    theme: "default"

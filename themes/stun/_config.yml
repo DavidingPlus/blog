@@ -1068,3 +1068,11 @@ title_trick:
   enable: true
   leave: "🤡快回来,粗大事了~~"
   enter: "😚欢迎回来!~"
+
+# mermaid chart
+mermaid: ## mermaid url https://github.com/knsv/mermaid
+  enable: true
+  version: "11.6.0"
+  options: # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+    # startOnload: true
+    theme: "default"

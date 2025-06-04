@@ -64,6 +64,7 @@ menu:
 submenu:
   others:
     friends: /friends/ || fas fa-users
+    gallery: /gallery/ || fas fa-images
 
   # Add item of secondary menu in here.
   # xxx1:
@@ -773,9 +774,9 @@ zoom_image:
 #   you can enable this to show images in waterfalls flow.
 # See: https://github.com/desandro/masonry/
 gallery_waterfall:
-  enable: false
-  col_width: 220px
-  gap_x: 10px
+  enable: true
+  col_width: 255px
+  gap_x: 65px
   gap_y: 10px
 
 # Lazy load the images of post.

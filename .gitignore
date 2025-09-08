@@ -7,7 +7,7 @@ _multiconfig.yml
 
 # 我自己根据我的目录添加的
 node_modules/
-public/
+dist/
 db.json
 .deploy_git/
 package-lock.json

@@ -4,25 +4,25 @@ const uglify = require('gulp-uglify-es').default;
 const htmlmin = require('gulp-html-minifier-terser');
 
 
-// 压缩 public 目录下的 css 文件。
+// 压缩 dist 目录下的 css 文件。
 // 可接受参数的文档：https://github.com/jakubpawlowicz/clean-css#constructor-options。
 gulp.task('minify-css', () => {
-    return gulp.src('./public/**/*.css')           // 处理 public 目录下所有的 css 文件，下同。
+    return gulp.src('./dist/**/*.css')           // 处理 dist 目录下所有的 css 文件，下同。
         .pipe(cleancss({ compatibility: 'ie8' }))  // 兼容到 IE8。
-        .pipe(gulp.dest('./public'));
+        .pipe(gulp.dest('./dist'));
 });
 
-// 压缩 public 目录下的 js 文件。
+// 压缩 dist 目录下的 js 文件。
 gulp.task('minify-js', () => {
-    return gulp.src('./public/**/*.js')
+    return gulp.src('./dist/**/*.js')
         .pipe(uglify())
-        .pipe(gulp.dest('./public'));
+        .pipe(gulp.dest('./dist'));
 });
 
-// 压缩 public 目录下的 html 文件。
+// 压缩 dist 目录下的 html 文件。
 // 可接受参数的文档：https://github.com/terser/html-minifier-terser#options-quick-reference。
 gulp.task('minify-html', () => {
-    return gulp.src('./public/**/*.html')
+    return gulp.src('./dist/**/*.html')
         .pipe(htmlmin({
             removeComments: true,                 // 移除注释。
             removeEmptyAttributes: true,          // 移除值为空的参数。
@@ -36,7 +36,7 @@ gulp.task('minify-html', () => {
                 /<pre class="mermaid">[\s\S]*?<\/pre>/  // 忽略 Mermaid 块，避免压缩破坏流程图语法。
             ]
         }))
-        .pipe(gulp.dest('./public'));
+        .pipe(gulp.dest('./dist'));
 });
 
 // 默认任务。不带任务名运行 gulp 时执行的任务。

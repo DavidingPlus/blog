@@ -939,13 +939,13 @@ cdn:
   # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css
-  fontawesome: /third-party/css/fontawesome.css
+  fontawesome: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/css/fontawesome.css
 
   # Using version: 3.4.1
   # Example:
   # jquery: //cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js
   # jquery: //cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
-  jquery: /third-party/js/jquery.js
+  jquery: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/jquery.js
 
   # Using version: 1.5.2
   # See: http://velocityjs.org/
@@ -954,8 +954,8 @@ cdn:
   # velocity: //cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.min.js
   # velocity_ui: //cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js
   # velocity_ui: //cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.ui.min.js
-  velocity: /third-party/js/velocity.js
-  velocity_ui: /third-party/js/velocity-ui.js
+  velocity: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/velocity.js
+  velocity_ui: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/velocity-ui.js
 
   # gitalk & js-md5
   # Using version: latest & latest
@@ -964,9 +964,9 @@ cdn:
   # gitalk_js: //cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
   # gitalk_css: //cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.css
   # md5: //cdn.jsdelivr.net/npm/js-md5@latest/src/md5.min.js
-  gitalk_js: /third-party/js/gitalk.js
-  gitalk_css: /third-party/css/gitalk.css
-  gitalk_md5: /third-party/js/gitalk-md5.js
+  gitalk_js: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/gitalk.js
+  gitalk_css: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/css/gitalk.css
+  gitalk_md5: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/gitalk-md5.js
 
   # valine & leancloud-storage
   # Using version: latest & latest
@@ -974,87 +974,87 @@ cdn:
   # Example:
   # valine: //cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js
   # leancloud_storage: //cdn.jsdelivr.net/npm/leancloud-storage@latest/dist/av-min.js
-  valine: /third-party/js/valine.js
-  leancloud_storage: /third-party/js/leancloud-storage.js
+  valine: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/valine.js
+  leancloud_storage: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/leancloud-storage.js
 
   # Waline
   # See: https://github.com/lizheming/waline
   # Example:
   # waline: //unpkg.com/@waline/client@3.3.0/dist/waline.js
-  waline: /third-party/js/waline.js
+  waline: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/waline.js
 
   # minivaline
   # See: https://github.com/MiniValine/MiniValine
   # Example:
   # minivaline: //cdn.jsdelivr.net/npm/minivaline/dist/MiniValine.min.js
-  minivaline: /third-party/js/minivaline.js
+  minivaline: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/minivaline.js
 
   # busuanzi
   # Using version: latest
   # See: https://busuanzi.ibruce.info/
   # Example:
   # busuanzi: //cdn.jsdelivr.net/gh/sukkaw/busuanzi@latest/bsz.pure.mini.js
-  busuanzi: /third-party/js/busuanzi.js
+  busuanzi: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/busuanzi.js
 
   # Using version: 2.1.1
   # See: https://busuanzi.ibruce.info/
   # Example:
   # instantsearch_js: //cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.js
   # instantsearch_css: //cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.css
-  instantsearch_js: /third-party/js/instantsearch.js
-  instantsearch_css: /third-party/css/instantsearch.css
+  instantsearch_js: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/instantsearch.js
+  instantsearch_css: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/css/instantsearch.css
 
   # Using version: latest
   # See: https://github.com/hustcc/ribbon.js
   # Example:
   # canvas_ribbon: //cdn.jsdelivr.net/npm/ribbon.js@latest/dist/ribbon.min.js
-  canvas_ribbon: /third-party/js/canvas-ribbon.js
+  canvas_ribbon: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/canvas-ribbon.js
 
   # Using version: latest
   # See: https://github.com/hustcc/canvas-nest.js
   # Example:
   # canvas_nest: //cdn.jsdelivr.net/npm/canvas-nest.js@1.0.1/dist/canvas-nest.min.js
-  canvas_nest: /third-party/js/canvas-nest.js
+  canvas_nest: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/canvas-nest.js
 
   # Using version: 3.5.7
   # See: https://www.fancyapps.com/fancybox/3/
   # Example:
   # fancybox_js: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
   # fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
-  fancybox_js: /third-party/js/fancybox.js
-  fancybox_css: /third-party/css/fancybox.css
+  fancybox_js: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/fancybox.js
+  fancybox_css: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/css/fancybox.css
 
   # Using version: 4.2.2
   # See: https://masonry.desandro.com/
   # Example:
   # masonry: //cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js
-  masonry: /third-party/js/masonry.js
+  masonry: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/masonry.js
 
   # Using version: 2.0.0-rc.2
   # See: https://github.com/tuupola/lazyload/
   # Example:
   # lazyload: //cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js
-  lazyload: /third-party/js/lazyload.js
+  lazyload: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/lazyload.js
 
   # Using version: latest
   # See: https://github.com/GoogleChromeLabs/quicklink/
   # Example:
   # quicklink: //cdn.jsdelivr.net/npm/quicklink@latest/dist/quicklink.umd.js
-  quicklink: /third-party/js/quicklink.js
+  quicklink: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/quicklink.js
 
   # Using version: latest
   # See: https://github.com/MoOx/pjax/
   # Example:
   # pjax: //cdn.jsdelivr.net/npm/pjax@latest/pjax.min.js
-  pjax: /third-party/js/pjax.js
+  pjax: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/pjax.js
 
   # Using version: 1.0.16
   # See: https://github.com/overtrue/share.js
   # Example:
   # share_js: //cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js
   # share_css: //cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css
-  share_js: /third-party/js/share.js
-  share_css: /third-party/css/share.css
+  share_js: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/share.js
+  share_css: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/css/share.css
 
 # 鼠标点击效果
 cursor_effect: text
@@ -1073,7 +1073,7 @@ title_trick:
 # mermaid chart
 mermaid: ## mermaid url https://github.com/knsv/mermaid
   enable: true
-  cdn: /third-party/js/mermaid.min.js
+  cdn: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/mermaid.min.js
   version: # 若 cdn 给出链接则该项无效。否则，留空则是最新版本，也可指定版本例如 "11.6.0"
   options: # find more api options from https://github.com/mermaid-js/mermaid/blob/master/packages/mermaid/src/mermaidAPI.ts
     # startOnload: false

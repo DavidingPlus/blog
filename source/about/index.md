@@ -24,5 +24,5 @@ graph TD
   A --> F[Linux 内核层开发<br>（正在学习中）]
 ```
 
-<img src="https://image.davidingplus.cn/images/2025/03/09/lbj-laugh.webp" alt="lbj-laugh" style="zoom:80%;" />
+<img src="https://cdn.davidingplus.cn/images/2025/03/09/lbj-laugh.webp" alt="lbj-laugh" style="zoom:80%;" />
 

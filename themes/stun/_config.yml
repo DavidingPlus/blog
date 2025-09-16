@@ -218,7 +218,7 @@ footer:
     # If not set, will be used `author` from Hexo main config (e.g. liuyib All Rights Reserved)
     text:
     # Start time. If not set, the current year will be used.
-    since:
+    since: 2023
     # End time. If not set, the current year will be used.
     end:
   # The icon between the copyright and the owner.

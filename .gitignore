@@ -11,3 +11,4 @@ dist/
 db.json
 .deploy_git/
 package-lock.json
+pnpm-lock.yaml

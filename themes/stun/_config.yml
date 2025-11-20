@@ -728,7 +728,7 @@ canvas_nest:
 # Math and Chart config
 # ---------------------------------------------------------------
 math:
-  enable: false
+  enable: true
   # If true, this function will be enabled on every page.
   # If false, this function will be enabled only if the page where `math: true` is set in `Front-matter`.
   per_page: false

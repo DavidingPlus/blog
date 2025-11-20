@@ -739,18 +739,18 @@ math:
   # Optional values: mathjax | katex
   engine: katex
   mathjax:
-    cdn: https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    cdn: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     # See: https://mhchem.github.io/MathJax-mhchem/
     mhchem:
       enable: false
-      mhchem_js: https://cdn.jsdelivr.net/npm/mathjax-mhchem@3.3.2/mhchem.min.js
+      mhchem_js: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/mhchem.min.js
   katex:
-    cdn: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css
+    cdn: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/css/katex.min.css
     # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
     copy_tex:
       enable: true
-      copy_tex_js: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/copy-tex.min.js
-      copy_tex_css: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/copy-tex.css
+      copy_tex_js: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/js/copy-tex.min.js
+      copy_tex_css: //cdn.davidingplus.cn/files/hexo-theme-stun-third-party/css/copy-tex.css
 
 # ---------------------------------------------------------------
 # Other config
